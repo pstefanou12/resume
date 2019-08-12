@@ -1,0 +1,22 @@
+/**
+ * skills styling
+*/
+#skills {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  text-align: center;
+}
+
+.skill-box {
+  display: inline-block;
+  width: 220px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skill {
+  height: 80px;
+}
+
+/*# sourceMappingURL=skills.css.map */

@@ -1,7 +1,23 @@
-/*
+/**
  * portfolio section styling
 */
 
+$content-width: 80%;
+
+.portfolio-section {
+  img {
+    display: inline-block;
+  }
+
+  p {
+    width: $content-width;
+    display: inline-block;
+  }
+
+  display: inline-block;
+}
+
+
 .portfolio-image {
-   height: 50px; 
+   height: 80px;
 }

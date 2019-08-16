@@ -1,0 +1,11 @@
+/**
+ * main, overall styling
+*/
+
+$main-background-color: #8742f5;
+$font-color: white;
+
+body {
+  background-color: $main-background-color;
+  color: $font-color;
+}

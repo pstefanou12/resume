@@ -1,0 +1,41 @@
+/**
+ * about section styling
+*/
+.information-section {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  padding: 10px;
+  position: relative;
+}
+
+.info-wrapper {
+  padding: 5px 0px;
+}
+.info-wrapper span {
+  padding: 5px;
+  font-size: 20px;
+}
+
+#information {
+  margin: 0px 5%;
+  border: 2px solid black;
+}
+
+#information::before {
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 5px solid #ffea00;
+}
+
+#info-info {
+  text-align: right;
+  float: right;
+  font-size: 19.5px;
+}
+
+/*# sourceMappingURL=about.css.map */

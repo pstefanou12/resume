@@ -6,10 +6,32 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  height: 50px;
+  background-color: #5204cf;
 }
 
 #primary-navbar li {
   display: inline;
+  padding: 0px 30px;
+  font-size: 14px;
+}
+
+#primary-navbar ul {
+  text-align: center;
+}
+
+#primary-navbar a {
+  color: white;
+}
+#primary-navbar a:hover {
+  color: white;
+  text-decoration: none;
+}
+#primary-navbar a:focus {
+  text-decoration: none;
+}
+#primary-navbar a:active {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=navbar.css.map */

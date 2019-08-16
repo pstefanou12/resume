@@ -17,63 +17,94 @@
   <link rel="stylesheet" href="./styling/css/skills.css">
   <link rel="stylesheet" href="./styling/css/portfolio.css">
   <link rel="stylesheet" href="./styling/css/navbar.css">
+  <link rel="stylesheet" href="./styling/css/about.css">
+  <link rel="stylesheet" href="./styling/css/main.css">
+
 
 </head>
 <body>
 
-<!--- primary navigation bar --->
-<div id="primary-navbar">
+  <img src='./images/townSwim.jpg' alt='town swim pic'>
+
+<!-- primary navigation bar -->
+<div id="primary-navbar" class="navbar">
   <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
-    <li><a href="#porfolio">Portfolio</a></li>
-    <li><a href="#contact">My Journey</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#my-journey">My Journey</a></li>
   </ul>
 </div>
 
-<!---- secondary navigation bar - renders on scrolling ----->
-<!-- <div id='secondary-navbar'>
+<!-- secondary navigation bar - renders on scrolling -->
+<div id='secondary-navbar' class="navbar invisble-navbar">
   <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#porfolio">Portfolio</a></li>
-    <li><a href="#contact">My Journey</a></li>
+    <li><a href="#my-journey">My Journey</a></li>
   </ul>
-</div> -->
+</div>
 
 <h1>Pat Stefanou</h1>
 
 <div class="section" id="about">
+  <h2 class='sub-title'>
+    ABOUT
+  </h2>
   <div id="information">
     <!-- full name -->
-    <span class='info'>Name: </span>
-    <span class='content'>Patroklos N. Stefanou</span>
+    <div class='information-section'>
+      <div class='info-wrapper'>
+        <span class='info'>Name: </span>
+        <span class='content'>Patroklos N. Stefanou</span>
+      </div>
 
-    <!-- DOB -->
-    <span class='info'>Date of Birth: </span>
-    <span class='content'>11-04-1997</span>
+      <!-- DOB -->
+      <div class='info-wrapper'>
+        <span class='info'>Date of Birth: </span>
+        <span class='content'>11-04-1997</span>
+      </div>
 
-    <!-- year -->
-    <span class='info'>Year: </span>
-    <span class='content'>Senior</span>
+      <!-- year -->
+      <div class='info-wrapper'>
+        <span class='info'>Year: </span>
+        <span class='content'>Senior</span>
+      </div>
 
-    <!-- email -->
-    <span class='info'>Email: </span>
-    <span class='content'>stefanou@mit.edu</span>
+      <!-- email -->
+      <div class='info-wrapper'>
+        <span class='info'>Email: </span>
+        <span class='content'>stefanou@mit.edu</span>
+      </div>
 
-    <!-- phone number -->
-    <span class='info'>Phone Number: </span>
-    <span class='content'> 203-912-2909</span>
-    <img alt='pat pic'>
+      <!-- phone number -->
+      <div class='info-wrapper'>
+        <span class='info'>Phone Number: </span>
+        <span class='content'> 203-912-2909</span>
+      </div>
+    </div>
 
-    <p>
-      My name is Pat Stefanou and I am a senior at MIT studying computer science. I have always had a competitive
-      nature that pushes me to the limits to be the best at what I do.
-      Having the priviledge to study at MIT, I developed a keen interest and strong skill-set in computer science.
-      I like to think that I am just starting to find my place in the software world and am
-      excited to see my future development as a programmr. I am a hard worker and a quick learner who is
-      always exicted to acquire new learn new technologies.
-    </p>
+    <div class='information-section'>
+      <img src='./images/pat.jpg' alt='pat pic' style="width:100%">
+    </div>
+
+    <div class='information-section' id='info-info'>
+      <p>
+        My name is Pat Stefanou and I am a senior at MIT studying computer science.
+        I am a hard-working, driven software engineer and a have a strong, diverse
+        skillset that I have acquired through many projects and internships.
+        I am also a quick learner, and am always exicted to learn new skills and
+        technologies.
+      </p>
+      <button>
+        <a href="./stefanouResume.pdf" target="_blank">
+          View Resume
+        </a>
+      </button>
+      <div id='button-section'>
+      </div>
+    </div>
   </div>
   <div class="container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -113,18 +144,23 @@
 </div>
 
 <div class="section" id="skills">
+  <h2 class='sub-title'>
+    SKILLS
+  </h2>
 </div>
 
 <div class="section" id="portfolio">
+  <h2 class='sub-title'>
+    PORTFOLIO
+  </h2>
   <div class="portfolio-section" id="nasdaq">
     <img src="./images/nasdaq.png" alt='Nasdaq logo' class='portfolio-image'>
     <p class='description'>
-      This past summer, I was given the opportunity to work as a developer at the
-      NASDAQ Innovation Lab. Working alongside five other interns, we developed
-      a prototype full-stack to monitor fraudulent economic activity in sports betting markets.
-      Through the experience, I learned a lot about working with people and what it is like
-      to "start a company" from scratch. Our project culminated with the team giving a
-      product pitch and demo to the company's CTO.
+      This past summer, I worked at the NASDAQ Innovation Lab. Working alongside
+      five other interns, we developed a prototype full-stack to monitor fraudulent
+      economic activity in sports betting markets. Through the experience, I learned a
+      lot about working with people and what it is like to "start a company" from scratch.
+      Our project culminated with the team giving a product pitch and demo to the company's CTO.
       In my free time, I worked under with Innovation Lab's Chief Data Scientist to design
       a web crawler that uses reinforcement learning to interpret web pages. Although, I didn't
       have enough time to fully implement the tool, I mention it because I still built a full-stack application,
@@ -163,6 +199,12 @@
       to work autonomously and to find solutions to new problems I faced on a daily basis.
     </p>
   </div>
+</div>
+
+<div class="section" id="my-journey">
+  <h2 class='sub-title'>
+    MY JOURNEY
+  </h2>
 </div>
 
 <footer>

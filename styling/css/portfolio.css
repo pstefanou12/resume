@@ -1,8 +1,19 @@
-/*
+/**
  * portfolio section styling
 */
+.portfolio-section {
+  display: inline-block;
+}
+.portfolio-section img {
+  display: inline-block;
+}
+.portfolio-section p {
+  width: 80%;
+  display: inline-block;
+}
+
 .portfolio-image {
-  height: 50px;
+  height: 80px;
 }
 
 /*# sourceMappingURL=portfolio.css.map */

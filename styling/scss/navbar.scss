@@ -48,8 +48,34 @@ $navbar-color: #5204cf;
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: $navbar-color;
+  z-index: 1; 
+}
+
+#secondary-navbar {
+  li {
+    display: inline;
+    padding: 0px 30px;
+    font-size: 16px;
+  }
+}
+
+#secondary-navbar {
+  a {
+    color: white;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  a:focus {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }
 }
 
 .invisible-navbar {
-  visibility: hidden; 
+  visibility: hidden;
 }

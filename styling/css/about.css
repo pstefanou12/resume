@@ -20,6 +20,7 @@
 #information {
   margin: 0px 5%;
   border: 2px solid black;
+  overflow: hidden;
 }
 
 #information::before {

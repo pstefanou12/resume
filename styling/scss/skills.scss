@@ -9,10 +9,26 @@ $skills-marrgin-left: 7.5%;
 $skills-margin-right: 7.5%;
 $skill-margin-bottom: 30px;
 
-#skills {
+#skills-container {
   margin-left: $skills-marrgin-left;
   margin-right: $skills-margin-right;
   text-align: center;
+}
+
+#skills-container {
+   a {
+    text-decoration: none;
+    color: white;
+   }
+   a:hover {
+     text-decoration: none;
+   }
+   a:focus {
+     text-decoration: none;
+   }
+   a:active {
+     text-decoration: none;
+   }
 }
 
 .skill-box {

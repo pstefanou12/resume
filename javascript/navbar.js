@@ -3,24 +3,26 @@
 */
 
 $(document).ready(function() {
-  var primaryNavbarBar = $('#primary-navbar');
+
+  // navigation bars
+  var primaryNavbar = $('#primary-navbar');
   var secondaryNavbar = $('#secondary-navbar');
 
   // if the user scrolls down the web page --> navbar changes
-  $(body).scroll(function() {
+  $(window).scroll(function() {
     // changing thresholds/variables
-    var this.change = navbar.offsetTop;
-    var this.changeNavbar = navbar.pageYOffset;
+    var change = primaryNavbar.offset().top;
+    var changeNavbar = $(window).scrollTop();
 
     // swap navbar if different
-    if (this.changeNavbar >= this.change) {
-      primaryNavbarBar.addClass('.invisible-navbar');
-      secondaryNavbar.removeClass('.invisible-navbar');
+    if (changeNavbar >= change) {
+      primaryNavbar.addClass('invisible-navbar');
+      secondaryNavbar.removeClass('invisible-navbar');
     } else {
-      secondaryNavbar.addClass('.invisible-navbar');
+      console.log("IN HERE!!!!");   
+      primaryNavbar.removeClass('invisible-navbar');
+      secondaryNavbar.addClass('invisible-navbar');
     }
 
-  })
-
-
-}
+  });
+})

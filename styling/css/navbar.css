@@ -34,4 +34,36 @@
   text-decoration: none;
 }
 
+#secondary-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5204cf;
+  z-index: 1;
+}
+
+#secondary-navbar li {
+  display: inline;
+  padding: 0px 30px;
+  font-size: 16px;
+}
+
+#secondary-navbar a {
+  color: white;
+}
+#secondary-navbar a:hover {
+  color: white;
+  text-decoration: none;
+}
+#secondary-navbar a:focus {
+  text-decoration: none;
+}
+#secondary-navbar a:active {
+  text-decoration: none;
+}
+
+.invisible-navbar {
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=navbar.css.map */

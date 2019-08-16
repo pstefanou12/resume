@@ -12,6 +12,7 @@
   <!-- javascript -->
   <script src='./javascript/skills.js'></script>
   <script src='./javascript/skill.js'></script>
+  <script src='./javascript/navbar.js'></script>
 
   <!-- styling -->
   <link rel="stylesheet" href="./styling/css/skills.css">
@@ -37,7 +38,7 @@
 </div>
 
 <!-- secondary navigation bar - renders on scrolling -->
-<div id='secondary-navbar' class="navbar invisble-navbar">
+<div id='secondary-navbar' class="navbar invisible-navbar">
   <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -45,8 +46,6 @@
     <li><a href="#my-journey">My Journey</a></li>
   </ul>
 </div>
-
-<h1>Pat Stefanou</h1>
 
 <div class="section" id="about">
   <h2 class='sub-title'>
@@ -106,47 +105,14 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="" alt="candid" style="width:100%;">
-        </div>
-
-        <div class="item">
-          <img src="" alt="water polo" style="width:100%;">
-        </div>
-
-        <div class="item">
-          <img src="" alt="other" style="width:100%;">
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
 </div>
 
 <div class="section" id="skills">
-  <h2 class='sub-title'>
+  <h2 id='skill-title' class='sub-title'>
     SKILLS
   </h2>
+  <div id="skills-container">
+  </div>
 </div>
 
 <div class="section" id="portfolio">
@@ -205,9 +171,48 @@
   <h2 class='sub-title'>
     MY JOURNEY
   </h2>
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="./images/pat.jpg" alt="candid" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="./images/pat.jpg" alt="water polo" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="./images/pat.jpg" alt="other" style="width:100%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <p>
+    My name is Pat Stefanou and I am a senior at MIT studying computer science.
+  </p>
 </div>
 
 <footer>
+  <span>Patroklos N. Stefanou</span>
   <span> | </span>
 </footer>
 

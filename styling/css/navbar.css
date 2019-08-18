@@ -6,22 +6,24 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  height: 50px;
+  height: 100px;
   background-color: #5204cf;
 }
 
 #primary-navbar li {
   display: inline;
   padding: 0px 30px;
-  font-size: 14px;
+  font-size: 11px;
 }
 
 #primary-navbar ul {
   text-align: center;
+  display: inline-flex;
 }
 
 #primary-navbar a {
-  color: white;
+  color: gray;
+  display: flow-root;
 }
 #primary-navbar a:hover {
   color: white;
@@ -29,9 +31,11 @@
 }
 #primary-navbar a:focus {
   text-decoration: none;
+  color: white;
 }
 #primary-navbar a:active {
   text-decoration: none;
+  color: white;
 }
 
 #secondary-navbar {
@@ -45,7 +49,7 @@
 #secondary-navbar li {
   display: inline;
   padding: 0px 30px;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 #secondary-navbar a {
@@ -62,8 +66,21 @@
   text-decoration: none;
 }
 
+#navbar-container {
+  text-align: center;
+}
+
 .invisible-navbar {
   visibility: hidden;
+}
+
+.navbar-icon {
+  height: 45px;
+  margin: 10px 20px;
+}
+
+.navbar-label {
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=navbar.css.map */

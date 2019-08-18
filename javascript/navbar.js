@@ -19,7 +19,6 @@ $(document).ready(function() {
       primaryNavbar.addClass('invisible-navbar');
       secondaryNavbar.removeClass('invisible-navbar');
     } else {
-      console.log("IN HERE!!!!");   
       primaryNavbar.removeClass('invisible-navbar');
       secondaryNavbar.addClass('invisible-navbar');
     }

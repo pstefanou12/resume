@@ -9,3 +9,22 @@ body {
   background-color: $main-background-color;
   color: $font-color;
 }
+
+#background-image {
+  height: 500px;
+  background: url('../../townSwim.jpg');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+}
+
+#title {
+  font-size: 40px;
+  
+}
+
+#subtitle {
+
+}

@@ -17,6 +17,7 @@ $navbar-color: #5204cf;
   transition-duration: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0s;
+  border-bottom: 2.5px solid blue;
 }
 
 .navbar {
@@ -96,5 +97,5 @@ $navbar-color: #5204cf;
 }
 
 .current {
-  color: white !important; 
+  color: white !important;
 }

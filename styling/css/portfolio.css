@@ -3,7 +3,7 @@
 */
 .portfolio-section {
   box-sizing: border-box;
-  margin: 0px 100px 50px 100px;
+  margin: 75px 100px 75px 100px;
   display: inline-block;
 }
 .portfolio-section img {
@@ -24,6 +24,22 @@
 
 .portfolio-container {
   text-align: center;
+}
+
+#nasdaq-container {
+  background-color: #b397de;
+}
+
+#csail-container {
+  background-color: #280461;
+}
+
+#livedata-container {
+  background-color: #5a0ada;
+}
+
+#sendfriend-container {
+  background-color: #0139a2;
 }
 
 /*# sourceMappingURL=portfolio.css.map */

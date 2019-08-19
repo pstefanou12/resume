@@ -8,6 +8,7 @@ $skill-width: 220px;
 $skills-marrgin-left: 7.5%;
 $skills-margin-right: 7.5%;
 $skill-margin-bottom: 30px;
+$skill-font-size: 16px;
 
 #skills-container {
   margin-left: $skills-marrgin-left;
@@ -41,4 +42,14 @@ $skill-margin-bottom: 30px;
 
 .skill {
   height: $skill-height;
+  margin: 40px 0px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.skill:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.skill-name {
+  font-size: $skill-font-size; 
 }

@@ -1,86 +1,89 @@
 /*
  * navbar navigation
 */
-#primary-navbar {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  height: 100px;
   background-color: #5204cf;
+  transition: height 0.3s;
+  transition-property: height;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
-#primary-navbar li {
+.navbar li {
   display: inline;
   padding: 0px 30px;
   font-size: 11px;
 }
 
-#primary-navbar ul {
+.navbar ul {
   text-align: center;
   display: inline-flex;
 }
 
-#primary-navbar a {
+.navbar a {
   color: gray;
   display: flow-root;
 }
-#primary-navbar a:hover {
+.navbar a:hover {
   color: white;
   text-decoration: none;
 }
-#primary-navbar a:focus {
+.navbar a:focus {
   text-decoration: none;
   color: white;
 }
-#primary-navbar a:active {
+.navbar a:active {
   text-decoration: none;
   color: white;
 }
 
-#secondary-navbar {
+.primary-navbar {
+  height: 100px;
+}
+
+.secondary-navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #5204cf;
   z-index: 1;
-}
-
-#secondary-navbar li {
-  display: inline;
-  padding: 0px 30px;
-  font-size: 13px;
-}
-
-#secondary-navbar a {
-  color: white;
-}
-#secondary-navbar a:hover {
-  color: white;
-  text-decoration: none;
-}
-#secondary-navbar a:focus {
-  text-decoration: none;
-}
-#secondary-navbar a:active {
-  text-decoration: none;
+  height: 70px;
 }
 
 #navbar-container {
   text-align: center;
 }
 
-.invisible-navbar {
-  visibility: hidden;
-}
-
 .navbar-icon {
-  height: 45px;
-  margin: 10px 20px;
+  height: 35px;
+  margin: 20px 20px 10px 20px;
+  transition: opacity 0.2s;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
-.navbar-label {
-  text-transform: capitalize;
+.remove-icon {
+  opacity: 0;
+}
+
+.navbar-link {
+  top: -35px;
+  position: relative;
+  transition: top 0.2s;
+  transition-property: top;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.current {
+  color: white !important;
 }
 
 /*# sourceMappingURL=navbar.css.map */

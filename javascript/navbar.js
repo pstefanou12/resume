@@ -3,25 +3,56 @@
 */
 
 $(document).ready(function() {
+  // navbar
+  var navbar = $('.navbar');
+  // navbar icons
+  var icons = $('.navbar-icon');
+  // navbar links
+  var links = $('.navbar-link');
+  // navbar labels
+  var labels = $('.navbar-label');
 
-  // navigation bars
-  var primaryNavbar = $('#primary-navbar');
-  var secondaryNavbar = $('#secondary-navbar');
+  // highlight navbar section when scroll over it
+  $(window).scroll(function() {
+      var position  = $(this).scrollTop();
+      
+      var current = true;
+      $('.section').each(function() {
+        var target = $(this).offset().top;
+        var id = $(this).attr('id');
+        var navLinks = $('.navbar-link');
+
+        if(position >= target) {
+          navLinks.removeClass('current');
+          $('.navbar-link[href$=' + id + ']').addClass('current');
+          current = false;
+        }
+      });
+
+      if (current) { // if none of the sections are active, remove current class
+        $('.navbar-link').removeClass('current');
+      }
+  });
 
   // if the user scrolls down the web page --> navbar changes
   $(window).scroll(function() {
     // changing thresholds/variables
-    var change = primaryNavbar.offset().top;
+    var change = $('#background-image').height();
     var changeNavbar = $(window).scrollTop();
 
     // swap navbar if different
     if (changeNavbar >= change) {
-      primaryNavbar.addClass('invisible-navbar');
-      secondaryNavbar.removeClass('invisible-navbar');
-    } else {
-      primaryNavbar.removeClass('invisible-navbar');
-      secondaryNavbar.addClass('invisible-navbar');
-    }
+      navbar.removeClass('primary-navbar');
+      navbar.addClass('secondary-navbar');
 
+      icons.addClass('remove-icon');
+      links.addClass('navbar-link');
+    } else {
+      navbar.removeClass('secondary-navbar');
+      navbar.addClass('primary-navbar');
+
+      icons.removeClass('remove-icon');
+      links.removeClass('navbar-link');
+    }
   });
 })

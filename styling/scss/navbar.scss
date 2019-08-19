@@ -2,19 +2,24 @@
  * navbar navigation
 */
 
-$navbar-height: 100px;
+$primary-navbar-height: 100px;
+$secondary-navbar-height: 70px;
 $navbar-color: #5204cf;
 
-#primary-navbar {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  height: $navbar-height;
   background-color: $navbar-color;
+  transition: height 0.3s;
+  transition-property: height;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
-#primary-navbar {
+.navbar {
   li {
     display: inline;
     padding: 0px 30px;
@@ -22,25 +27,26 @@ $navbar-color: #5204cf;
   }
 }
 
-#primary-navbar {
+.navbar {
   ul {
     text-align: center;
     display: inline-flex;
   }
 }
 
-#primary-navbar {
+.navbar {
   a {
     color: gray;
     display: flow-root;
   }
+
   a:hover {
     color: white;
     text-decoration: none;
   }
   a:focus {
     text-decoration: none;
-    color: white; 
+    color: white;
   }
   a:active {
     text-decoration: none;
@@ -48,51 +54,47 @@ $navbar-color: #5204cf;
   }
 }
 
-#secondary-navbar {
+.primary-navbar {
+  height: $primary-navbar-height;
+}
+
+.secondary-navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: $navbar-color;
   z-index: 1;
+  height: $secondary-navbar-height;
 }
 
-#secondary-navbar {
-  li {
-    display: inline;
-    padding: 0px 30px;
-    font-size: 13px;
-  }
-}
-
-#secondary-navbar {
-  a {
-    color: white;
-  }
-  a:hover {
-    color: white;
-    text-decoration: none;
-  }
-  a:focus {
-    text-decoration: none;
-  }
-  a:active {
-    text-decoration: none;
-  }
-}
 
 #navbar-container {
   text-align: center;
 }
 
-.invisible-navbar {
-  visibility: hidden;
-}
-
 .navbar-icon {
-  height: 45px;
-  margin: 10px 20px;
+  height: 35px;
+  margin: 20px 20px 10px 20px;
+  transition: opacity 0.2s;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
-.navbar-label {
-  text-transform: capitalize;
+.remove-icon {
+  opacity: 0;
+}
+
+.navbar-link {
+  top: -35px;
+  position: relative;
+  transition: top 0.2s;
+  transition-property: top;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.current {
+  color: white !important; 
 }

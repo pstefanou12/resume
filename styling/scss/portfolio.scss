@@ -3,8 +3,12 @@
 */
 
 $content-width: 80%;
+$content-font-size: 18px;
 
 .portfolio-section {
+  box-sizing: border-box;
+  margin: 0px 100px 50px 100px;
+
   img {
     display: inline-block;
   }
@@ -12,6 +16,10 @@ $content-width: 80%;
   p {
     width: $content-width;
     display: inline-block;
+    text-align: left;
+    padding: 0px 30px;
+    vertical-align: -webkit-baseline-middle;
+    font-size: $content-font-size;
   }
 
   display: inline-block;
@@ -19,5 +27,9 @@ $content-width: 80%;
 
 
 .portfolio-image {
-   height: 80px;
+   width: 100px;
+}
+
+.portfolio-container {
+  text-align: center;
 }

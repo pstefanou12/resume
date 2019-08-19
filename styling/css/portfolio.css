@@ -2,6 +2,8 @@
  * portfolio section styling
 */
 .portfolio-section {
+  box-sizing: border-box;
+  margin: 0px 100px 50px 100px;
   display: inline-block;
 }
 .portfolio-section img {
@@ -10,10 +12,18 @@
 .portfolio-section p {
   width: 80%;
   display: inline-block;
+  text-align: left;
+  padding: 0px 30px;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 18px;
 }
 
 .portfolio-image {
-  height: 80px;
+  width: 100px;
+}
+
+.portfolio-container {
+  text-align: center;
 }
 
 /*# sourceMappingURL=portfolio.css.map */

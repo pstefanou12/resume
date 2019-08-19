@@ -1,0 +1,26 @@
+/**
+ * footer section styling
+*/
+
+$footer-height: 200px;
+$footer-color: black;
+
+#footer {
+  height: $footer-height;
+  background-color: $footer-color;
+  text-align: center;
+}
+
+.footer-link-pic {
+  width: 80px;
+}
+
+.footer-col {
+  display: inline-block;
+  padding: 0% 6%;
+  box-sizing: border-box;
+}
+
+.fa-twitter {
+  width: 80px !important; 
+}

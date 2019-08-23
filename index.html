@@ -14,6 +14,7 @@
   <script src='./javascript/skill.js'></script>
   <script src='./javascript/navbar.js'></script>
 
+
   <!-- styling -->
   <link rel="stylesheet" href="./styling/css/skills.css">
   <link rel="stylesheet" href="./styling/css/portfolio.css">
@@ -22,6 +23,7 @@
   <link rel="stylesheet" href="./styling/css/main.css">
   <link rel="stylesheet" href="./styling/css/footer.css">
   <link rel="stylesheet" href="./styling/css/myJourney.css">
+  <link rel="stylesheet" href="./styling/css/button.css">
 
   <!-- misc. -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,6 +32,13 @@
   <div id='background-image'>
     <h1 id='title'>Pat Stefanou</h1>
     <h2 id='subtitle'>MIT Computer Science and Engineering</h2>
+    <div class="banner-button">
+      <button id="banner-button">
+        <a href="./stefanouResume.pdf" target="_blank">
+          View Resume
+        </a>
+      </button>
+    </div>
   </div>
 
 <!-- navigation bar -->
@@ -61,6 +70,11 @@
         </a>
     </li>
   </ul>
+  <button id="navbar-button">
+    <a href="./stefanouResume.pdf" target="_blank">
+      View Resume
+    </a>
+  </button>
 </div>
 </div>
 
@@ -231,15 +245,24 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="./images/pat.jpg" alt="candid" style="width:100%;">
+          <img src="./images/formal-2018.jpg" alt="candid" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Driven</h3>
+          </div>
         </div>
 
         <div class="item">
           <img src="./images/pat.jpg" alt="water polo" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Leader</h3>
+          </div>
         </div>
 
         <div class="item">
-          <img src="./images/pat.jpg" alt="other" style="width:100%;">
+          <img src="./images/wapo-fresh.jpeg" alt="other" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Hard Working</h3>
+          </div>
         </div>
       </div>
 

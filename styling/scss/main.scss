@@ -2,8 +2,8 @@
  * main, overall styling
 */
 
-$main-background-color: #8742f5;
-$font-color: white;
+$main-background-color: #b694ea;
+$font-color: black;
 
 body {
   background-color: $main-background-color;
@@ -21,7 +21,7 @@ body {
 
 #background-image {
   height: 630px;
-  background: url('../../townSwim.jpg');
+  background: url('../../nov.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -34,9 +34,9 @@ body {
   font-size: 40px;
   margin-top: 0;
   padding-top: 250px;
-
+  color: white;
 }
 
 #subtitle {
-
+  color: white; 
 }

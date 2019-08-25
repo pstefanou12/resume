@@ -33,11 +33,11 @@
     <h1 id='title'>Pat Stefanou</h1>
     <h2 id='subtitle'>MIT Computer Science and Engineering</h2>
     <div class="banner-button">
-      <button id="banner-button">
-        <a href="./stefanouResume.pdf" target="_blank">
+      <a id='banner-link' href="./stefanouResume.pdf" target="_blank">
+        <button id="banner-button">
           View Resume
-        </a>
-      </button>
+        </button>
+      </a>
     </div>
   </div>
 
@@ -126,7 +126,7 @@
         skillset that I have developed through multiple projects and internships.
         I am a quick learner and am exicted to learn new technologies.
       </p>
-      <button>
+      <button id='resume-button'>
         <a href="./stefanouResume.pdf" target="_blank">
           View Resume
         </a>
@@ -151,8 +151,10 @@
   </h2>
   <div class='portfolio-container'>
     <div id="nasdaq-container">
-      <div class="portfolio-section" id="nasdaq">
-        <img src="./images/nasdaq.png" alt='Nasdaq logo' class='portfolio-image'>
+      <div class="portfolio-section" id="nasdaq" target='_blank'>
+        <a href='https://new.nasdaq.com/'>
+          <img src="./images/nasdaq.png" alt='Nasdaq logo' class='portfolio-image'>
+        </a>
         <p class='description'>
           This past summer, I worked at the NASDAQ Innovation Lab. Working alongside
           five other interns, we developed a prototype full-stack to monitor fraudulent
@@ -168,7 +170,9 @@
     </div>
     <div id="csail-container">
       <div class="portfolio-section" id="csail">
-        <img src="./images/csail.png" alt='CSAIL logo' class='portfolio-image'>
+        <a href='https://www.csail.mit.edu' target='_blank'>
+          <img src="./images/csail.png" alt='CSAIL logo' class='portfolio-image'>
+        </a>
         <p class='description'>
           Over the spring semester, I worked in the CSAIL lab at MIT. At CSAIL, I worked on a project
           to improve DNN training efficiency through methods of data and model parallelism. Through the
@@ -181,7 +185,9 @@
     </div>
     <div id="livedata-container">
       <div class="portfolio-section" id="livedata">
-        <img src="./images/livedata.jpg" alt='LiveData Utilities logo' class='portfolio-image'>
+        <a href='https://www.livedatautilities.com' target='_blank'>
+          <img src="./images/livedata.jpg" alt='LiveData Utilities logo' class='portfolio-image'>
+        </a>
         <p class='description'>
           Last IAP, I worked at LiveData Utilities in Cambridge, Boston. There, I built
           software architecture for a Random Forest Regression model that predicts a community's
@@ -193,7 +199,9 @@
     </div>
     <div id="sendfriend-container">
       <div class="portfolio-section" id="sendfriend">
-        <img src="./images/sendfriend.png" alt='SendFriend logo' class='portfolio-image'>
+        <a href='https://www.sendfriend.io' target='_blank'>
+          <img src="./images/sendfriend.png" alt='SendFriend logo' class='portfolio-image'>
+        </a>
         <p class='description'>
           Last summer, I worked at SendFriend in Cambridge, Boston. SendFriend is remittance application
           that leverages blockchain to make transactions both cheap and quick. At SendFriend,
@@ -206,7 +214,9 @@
     </div>
     <div id="ryc-container">
       <div class="portfolio-section" id="ryc">
-        <img src="./images/ryc.svg" alt='Riverside Yacht Club logo' class='portfolio-image'>
+        <a href='https://riversideyachtclub.com' target='_blank'>
+          <img src="./images/ryc.svg" alt='Riverside Yacht Club logo' class='portfolio-image'>
+        </a>
         <p class='description'>
           For the summers after my senior year of high school and freshman years of college,
           I served as the Head Water Polo Coach at the Riverside Yacht Club. My responsibilities
@@ -217,7 +227,9 @@
     </div>
     <div id="ymca-container">
       <div class="portfolio-section" id="ymca">
-        <img src="./images/ymca.png" alt='YMCA logo' class='portfolio-image'>
+        <a href='https://www.ymca.net' target='_blank'>
+          <img src="./images/ymca.png" alt='YMCA logo' class='portfolio-image'>
+        </a>
         <p class='description'>
           During my sophomore and junior years of high school, I was a lifeguard
           and swim instructor at the local Greenwich YMCA. My responsibilities included
@@ -245,23 +257,23 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="./images/formal-2018.jpg" alt="candid" style="width:100%;">
+          <img src="./images/" alt="candid" style="width:100%;">
           <div class="carousel-caption">
-            <h3>Driven</h3>
+            <h3></h3>
           </div>
         </div>
 
         <div class="item">
           <img src="./images/pat.jpg" alt="water polo" style="width:100%;">
           <div class="carousel-caption">
-            <h3>Leader</h3>
+            <h3></h3>
           </div>
         </div>
 
         <div class="item">
           <img src="./images/wapo-fresh.jpeg" alt="other" style="width:100%;">
           <div class="carousel-caption">
-            <h3>Hard Working</h3>
+            <h3>MIT Men's Water Polo 2016</h3>
           </div>
         </div>
       </div>
@@ -283,6 +295,8 @@
       My name is Pat Stefanou and I am a senior at MIT studying computer science. I
       originally come from Greenwich, CT, where I went to a prep school called Brunswick.
       Throughout my life, I have loved aquatics sports. When I was
+      <img src='./images/throwback.jpg' id='throwback-photo' class='journey-photo'>
+
       younger, I would spend my summers with my family in Greece, where I would compete
       on my club's (Nautikos Omilos Bouliagmeni) water polo team. Growing up in Connecticut,
       I competed for Greenwich Aquatics and my high school Brunswick. <br><br>
@@ -301,7 +315,10 @@
       team ever fielded by MIT, we enter at exciting time in our program's history. This
       year, we are on a mission to dethrone perennial Ivy League houses to be the team that
       "makes it out of the east" and earn an automatic berth to the Division 1 NCAA Championships!
-      You can follow our <a>season</a> here on our Twitter page. <br><br>
+      You can follow our season <a href='https://twitter.com/mitwaterpolo?lang=en' target='_blank'>here</a>
+      on our Twitter page. <br><br>
+
+      <img src='./images/formal.jpg' id='formal-photo' class='journey-photo'>
 
       Outside of the pool, I major in Computer Science in MIT. To say that I switched
       lanes after high school is an under statement. Throughout high school, I was obsessed
@@ -340,6 +357,8 @@
       served as Tech Chair, where I helped maintain the house's server and website. This fall, I
       will serve as Professional Development Chair, where I will help my brother's navigate
       their careers by giving them advice and guidance through the fall recruiting process. <br><br>
+      
+      <img src='./images/the-strokes.png' id='strokes-photo' class='journey-photo'>
 
       Besides this, I am an avid fan of <i>The Strokes</i>, with my favorite song by them being
       <i>You Only Live Once</i>. I am also extremely excited for this upcoming summer's Olympics
@@ -358,21 +377,9 @@
 </div>
 
 <footer id='footer'>
-  <div class='mit-link footer-col'>
-    <a
-      href="http://www.mit.edu/"
-      class="footer-link"
-      target="_blank">
-      <img src="./images/mit.png" class="footer-link-pic">
-    </a>
-  </div>
-  <div class='mit-wapo-link footer-col'>
-    <a
-      href="https://www.mitathletics.com/sports/m-wpolo/index"
-      class="footer-link"
-      target="_blank">
-      <img src="./images/mit-athletics.png" class="footer-link-pic">
-    </a>
+  <div class='address footer-col'>
+    <span>526 Beacon St.</span><br>
+    <span>Boston, MA, 02215</span>
   </div>
   <div class='footer-col'>
     <div class='footer-name'>
@@ -387,20 +394,9 @@
       </a>
     </div>
   </div>
-  <div class='mit-wapo-twitter footer-col'>
-    <a
-      href="https://twitter.com/mitwaterpolo?lang=en"
-      class="fa fa-twitter footer-link-pic"
-      target="_blank">
-    </a>
-  </div>
-  <div class='theta-tau-link footer-col'>
-    <a
-      href="thetatau.mit.edu"
-      class="footer-link"
-      target="_blank">
-      <img src="./images/theta-tau.png" class="footer-link-pic">
-    </a>
+  <div class='contact footer-col'>
+    <span>stefanou@mit.edu</span><br>
+    <span>203-912-2909</span>
   </div>
 </footer>
 

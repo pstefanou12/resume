@@ -4,7 +4,6 @@
 
 $journey-font-size: 18px;
 
-
 #journey-content {
   margin: 100px 15%;
   font-size: $journey-font-size;
@@ -16,4 +15,26 @@ $journey-font-size: 18px;
 
 #sign-off {
   margin: 50px 0px;
+}
+
+#formal-photo {
+  height: 200px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#throwback-photo {
+  height: 200px;
+  float: right;
+  margin: 20px;
+}
+
+#strokes-photo {
+  float: right;
+  height: 125px;
+  border: none !important;
+}
+
+.journey-photo {
+  border: 4px solid #8742f5;
 }

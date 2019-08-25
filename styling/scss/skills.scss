@@ -43,7 +43,7 @@ $skill-font-size: 16px;
 .skill {
   height: $skill-height;
   margin: 40px 0px;
-  filter: drop-shadow(5px 5px 5px black);
+  filter: drop-shadow(10px 10px 10px grey);
 }
 
 .skill:hover {
@@ -51,5 +51,5 @@ $skill-font-size: 16px;
 }
 
 .skill-name {
-  font-size: $skill-font-size; 
+  font-size: $skill-font-size;
 }

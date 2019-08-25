@@ -5,23 +5,49 @@
 .banner-button {
 }
 
+#banner-link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+
 #banner-button {
   height: 60px;
   width: 300px;
   background-color: Transparent;
   border: 3px solid white;
   text-decoration: none;
+  margin-top: 30px;
 }
-
-#banner-button {
-  a {
-    text-decoration: none;
-  }
-}
-
 
 #banner-button:hover {
-  color: Transparent;
   background-color: white;
   text-decoration: none;
+  color: black;
+}
+
+.invisible-button {
+  opacity: 0;
+}
+
+#navbar-button {
+  position: absolute;
+  margin-top: 17.5px;
+  margin-left: 80px;
+  background-color: #99bbff;
+  color: white !important;
+  border: none;
+  padding: 5px 10px;
+  // shadow:
+}
+
+#navbar-button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#navbar-button {
+  a {
+    color: black !important;
+  }
 }

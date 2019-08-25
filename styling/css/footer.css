@@ -3,23 +3,29 @@
 */
 #footer {
   height: 200px;
-  background-color: black;
+  background-color: #5204cf;
   text-align: center;
-}
-
-.footer-link-pic {
-  width: 80px;
+  font-size: 22px;
+  border-top: 2.5px solid blue;
+  color: white !important;
 }
 
 .footer-col {
   display: inline-block;
-  padding: 0% 6%;
   box-sizing: border-box;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
-.fa-twitter {
-  width: 80px !important;
+.address {
+  float: left;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.contact {
+  float: right;
+  text-align: right;
+  margin-right: 30px;
 }
 
 /*# sourceMappingURL=footer.css.map */

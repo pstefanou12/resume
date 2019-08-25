@@ -2,8 +2,8 @@
  * main, overall styling
 */
 body {
-  background-color: #8742f5;
-  color: white;
+  background-color: #b694ea;
+  color: black;
   line-height: 1.75;
 }
 
@@ -17,7 +17,7 @@ body {
 
 #background-image {
   height: 630px;
-  background: url("../../townSwim.jpg");
+  background: url("../../nov.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -30,6 +30,11 @@ body {
   font-size: 40px;
   margin-top: 0;
   padding-top: 250px;
+  color: white;
+}
+
+#subtitle {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

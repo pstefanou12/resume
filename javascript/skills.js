@@ -26,6 +26,7 @@ $(document).ready(function() {
     'TensorFlow': Skill('TensorFlow', 'tensorflow.png', 'https://www.tensorflow.org'),
     'Horovod': Skill('Horovod', 'horovod.png', 'https://github.com/horovod/horovod'),
     'Solidity': Skill('Solidity', 'ethereum.png', 'https://solidity.readthedocs.io/en/v0.5.10/'),
+    'Truffle': Skill('Truffle', 'truffle.webp', 'https://www.trufflesuite.com'), 
   };
 
   var skillKeys = Object.keys(skills);

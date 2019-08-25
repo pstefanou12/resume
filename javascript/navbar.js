@@ -11,11 +11,14 @@ $(document).ready(function() {
   var links = $('.navbar-link');
   // navbar labels
   var labels = $('.navbar-label');
+  // navbar resume button
+  var navResumeButton = $('#navbar-button');
+  var resumeButton = $('#resume-button');
 
   // highlight navbar section when scroll over it
   $(window).scroll(function() {
       var position  = $(this).scrollTop();
-      
+
       var current = true;
       $('.section').each(function() {
         var target = $(this).offset().top;
@@ -53,6 +56,18 @@ $(document).ready(function() {
 
       icons.removeClass('remove-icon');
       links.removeClass('navbar-link');
+    }
+  });
+
+  // resume button appears on navbar as user scrolls down page
+  $(window).scroll(function() {
+    var position  = $(this).scrollTop();
+    var target = $(resumeButton).offset().top;
+
+    if (position >= target) {
+      navResumeButton.removeClass('invisible-button');
+    } else {
+      navResumeButton.addClass('invisible-button');
     }
   });
 })

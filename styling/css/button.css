@@ -52,4 +52,22 @@
   color: black !important;
 }
 
+#resume-button {
+  background-color: #354def;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  margin: 20px;
+  float: right;
+  padding: 10px;
+}
+#resume-button a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+#resume-button:hover {
+  transform: scale(1.1, 1.1);
+}
+
 /*# sourceMappingURL=button.css.map */

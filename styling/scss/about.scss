@@ -5,6 +5,7 @@
 $info-font-size: 20px;
 $secondary-font: 'Roboto', sans-serif;
 $container-color: #8577f5;
+$about-border: 3px solid blue;
 
 .information-section {
   display: inline-block;
@@ -30,15 +31,15 @@ $container-color: #8577f5;
 }
 
 .info-container {
-  border: 3px solid blue;
-  background-color: $container-color; 
+  border: $about-border;
+  background-color: $container-color;
 }
 
 #information {
   margin: 0px 5%;
   overflow: hidden;
   background-color: #8282e6;
-  border: 2.5px solid blue;
+  border: $about-border;
   font-family: $secondary-font;
 }
 
@@ -53,9 +54,11 @@ $container-color: #8577f5;
 }
 
 #info-info {
-  text-align: left;
-  float: left;
+  float: right;
   font-size: 19.5px;
+  width: 30%;
+  font-family: $secondary-font;
+  margin-right: 5%;
 }
 
 .info-image {
@@ -63,4 +66,24 @@ $container-color: #8577f5;
 }
 
 #basic-info {
+  font-family: $secondary-font;
+  margin-left: 5%;
+}
+
+.info-container {
+  p {
+    margin: 20px 20px 0px 20px;
+    text-align: right;
+  }
+}
+
+.carousel-container {
+    width: 30%;
+    margin: 0px 5%;
+    border: $about-border;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
 }

@@ -30,7 +30,7 @@
   margin: 0px 5%;
   overflow: hidden;
   background-color: #8282e6;
-  border: 2.5px solid blue;
+  border: 3px solid blue;
   font-family: "Roboto", sans-serif;
 }
 
@@ -45,13 +45,36 @@
 }
 
 #info-info {
-  text-align: left;
-  float: left;
+  float: right;
   font-size: 19.5px;
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  margin-right: 5%;
 }
 
 .info-image {
   width: 20% !important;
+}
+
+#basic-info {
+  font-family: "Roboto", sans-serif;
+  margin-left: 5%;
+}
+
+.info-container p {
+  margin: 20px 20px 0px 20px;
+  text-align: right;
+}
+
+.carousel-container {
+  width: 30%;
+  margin: 0px 5%;
+  border: 3px solid blue;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=about.css.map */

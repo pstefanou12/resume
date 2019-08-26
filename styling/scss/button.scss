@@ -4,6 +4,7 @@
 
 $secondary-color: #de0eff;
 $title-font: 'Rajdhani', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
 
 .banner-button {
 }
@@ -60,4 +61,23 @@ $title-font: 'Rajdhani', sans-serif;
   a {
     color: black !important;
   }
+}
+
+#resume-button {
+  background-color: #354def;
+  font-family: $secondary-font;
+  border: none;
+  margin: 20px;
+  float: right;
+  padding: 10px;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px; 
+  }
+}
+
+#resume-button:hover {
+  transform: scale(1.1, 1.1);
 }

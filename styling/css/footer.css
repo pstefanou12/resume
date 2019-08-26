@@ -2,12 +2,13 @@
  * footer section styling
 */
 #footer {
+  font-family: "Rajdhani", sans-serif;
   height: 200px;
-  background-color: #5204cf;
+  background-color: #7e00f1;
   text-align: center;
   font-size: 22px;
   border-top: 2.5px solid blue;
-  color: white !important;
+  color: #de0eff !important;
 }
 
 .footer-col {
@@ -26,6 +27,10 @@
   float: right;
   text-align: right;
   margin-right: 30px;
+}
+
+.footer-name {
+  font-size: 32px;
 }
 
 /*# sourceMappingURL=footer.css.map */

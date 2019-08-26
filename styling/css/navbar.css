@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  background-color: #5204cf;
+  background-color: #7e00f1;
   transition: height 0.3s;
   transition-property: height;
   transition-duration: 0.3s;
@@ -15,10 +15,13 @@
   border-bottom: 2.5px solid blue;
 }
 
+.navbar {
+  font-family: "Rajdhani", sans-serif;
+}
 .navbar li {
   display: inline;
   padding: 0px 30px;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .navbar ul {
@@ -27,20 +30,20 @@
 }
 
 .navbar a {
-  color: gray;
+  color: black;
   display: flow-root;
 }
 .navbar a:hover {
-  color: white;
+  color: #de0eff;
   text-decoration: none;
 }
 .navbar a:focus {
   text-decoration: none;
-  color: white;
+  color: #de0eff;
 }
 .navbar a:active {
   text-decoration: none;
-  color: white;
+  color: #de0eff;
 }
 
 .primary-navbar {
@@ -74,7 +77,7 @@
 }
 
 .navbar-link {
-  top: -35px;
+  top: -40px;
   position: relative;
   transition: top 0.2s;
   transition-property: top;
@@ -84,7 +87,7 @@
 }
 
 .current {
-  color: white !important;
+  color: #de0eff !important;
 }
 
 /*# sourceMappingURL=navbar.css.map */

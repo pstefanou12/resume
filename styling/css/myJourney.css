@@ -32,6 +32,11 @@
   border: none !important;
 }
 
+#signature {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 48px;
+}
+
 .journey-photo {
   border: 4px solid #8742f5;
 }

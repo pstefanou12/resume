@@ -2,16 +2,22 @@
  * about section styling
 */
 
-$info-width: 30%;
 $info-font-size: 20px;
+$secondary-font: 'Roboto', sans-serif;
+$container-color: #8577f5;
 
 .information-section {
   display: inline-block;
-  width: $info-width;
   vertical-align:top;
   position: relative;
   box-sizing: border-box;
   padding: 1.75%;
+}
+
+.information-section {
+  img {
+    width: 40% !important;
+  }
 }
 
 .info-wrapper {
@@ -23,11 +29,17 @@ $info-font-size: 20px;
   padding: 5px 0px;
 }
 
+.info-container {
+  border: 3px solid blue;
+  background-color: $container-color; 
+}
+
 #information {
   margin: 0px 5%;
   overflow: hidden;
   background-color: #8282e6;
   border: 2.5px solid blue;
+  font-family: $secondary-font;
 }
 
 #information::before {
@@ -41,9 +53,13 @@ $info-font-size: 20px;
 }
 
 #info-info {
-  text-align: right;
-  float: right;
+  text-align: left;
+  float: left;
   font-size: 19.5px;
+}
+
+.info-image {
+  width: 20% !important;
 }
 
 #basic-info {

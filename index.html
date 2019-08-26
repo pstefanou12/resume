@@ -9,6 +9,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Rajdhani|Roboto:100&display=swap" rel="stylesheet">
+
   <!-- javascript -->
   <script src='./javascript/skills.js'></script>
   <script src='./javascript/skill.js'></script>
@@ -35,7 +38,7 @@
     <div class="banner-button">
       <a id='banner-link' href="./stefanouResume.pdf" target="_blank">
         <button id="banner-button">
-          View Resume
+          <span id='banner-text'>View Resume</span>
         </button>
       </a>
     </div>
@@ -82,9 +85,9 @@
   <h2 class='sub-title'>
     ABOUT
   </h2>
-  <div id="information">
+    <!-- <img src='./images/pat.jpg' class='info-container info-image' alt='pat pic' style="width:100%"> -->
     <!-- full name -->
-    <div class='information-section' id='basic-info'>
+    <div class='information-section info-container' id='basic-info'>
       <div class='info-wrapper'>
         <span class='info'><b>Name: </b></span>
         <span class='content'>Patroklos N. Stefanou</span>
@@ -113,27 +116,19 @@
         <span class='info'><b>Phone Number: </b></span>
         <span class='content'> 203-912-2909</span>
       </div>
-    </div>
-
-    <div class='information-section'>
-      <img src='./images/pat.jpg' alt='pat pic' style="width:100%">
-    </div>
-
-    <div class='information-section' id='info-info'>
-      <p>
-        I am Pat Stefanou and I am a senior at MIT studying computer science.
-        I am a hard-working, driven software engineer with a diverse
-        skillset that I have developed through multiple projects and internships.
-        I am a quick learner and am exicted to learn new technologies.
-      </p>
-      <button id='resume-button'>
-        <a href="./stefanouResume.pdf" target="_blank">
-          View Resume
-        </a>
-      </button>
-      <div id='button-section'>
-      </div>
-    </div>
+  </div>
+  <div class='info-container' id='info-info'>
+    <p>
+      I am Pat Stefanou and I am a senior at MIT studying computer science.
+      I am a hard-working, driven software engineer with a diverse
+      skillset that I have developed through multiple projects and internships.
+      I am a quick learner and am exicted to learn new technologies.
+    </p>
+    <button id='resume-button'>
+      <a href="./stefanouResume.pdf" target="_blank">
+        View Resume
+      </a>
+    </button>
   </div>
 </div>
 
@@ -357,7 +352,7 @@
       served as Tech Chair, where I helped maintain the house's server and website. This fall, I
       will serve as Professional Development Chair, where I will help my brother's navigate
       their careers by giving them advice and guidance through the fall recruiting process. <br><br>
-      
+
       <img src='./images/the-strokes.png' id='strokes-photo' class='journey-photo'>
 
       Besides this, I am an avid fan of <i>The Strokes</i>, with my favorite song by them being
@@ -371,7 +366,7 @@
       If you would like a reference about me, please let me know and
       I will connect you with one of my previous employers! <br><br>
     </p>
-    <div id='sign-off'>Best,</div>
+    <div id='sign-off'>Sincerely,</div>
     <div id="signature">Patroklos N. Stefanou</div>
 </div>
 </div>

@@ -3,7 +3,10 @@
 */
 
 $main-background-color: #b694ea;
+$title-color: #de0eff;
 $font-color: black;
+$title-shadow: drop-shadow(10px 10px 5px black);
+$title-font: 'Rajdhani', sans-serif;
 
 body {
   background-color: $main-background-color;
@@ -21,7 +24,7 @@ body {
 
 #background-image {
   height: 630px;
-  background: url('../../nov.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../nov.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -31,12 +34,19 @@ body {
 }
 
 #title {
-  font-size: 40px;
+  font-size: 72px;
   margin-top: 0;
   padding-top: 250px;
   color: white;
+  font-family: $title-font;
+  font-weight: 500;
+  color: $title-color;
+  filter: $title-shadow;
 }
 
 #subtitle {
-  color: white; 
+  color: white;
+  color: $title-color;
+  filter: $title-shadow;
+  font-family: $title-font;
 }

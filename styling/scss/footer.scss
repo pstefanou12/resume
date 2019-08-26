@@ -3,15 +3,18 @@
 */
 
 $footer-height: 200px;
-$footer-color: #5204cf;
+$footer-color: #7e00f1;
+$title-font: 'Rajdhani', sans-serif;
+$secondary-color: #de0eff;
 
 #footer {
+  font-family: $title-font;
   height: $footer-height;
   background-color: $footer-color;
   text-align: center;
   font-size: 22px;
   border-top: 2.5px solid blue;
-  color: white !important;
+  color: $secondary-color !important;
 }
 
 
@@ -31,4 +34,8 @@ $footer-color: #5204cf;
   float: right;
   text-align: right;
   margin-right: 30px;
+}
+
+.footer-name {
+  font-size: 32px;
 }

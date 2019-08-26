@@ -3,21 +3,28 @@
 */
 #banner-link {
   text-decoration: none;
-  color: white;
+  color: #de0eff;
   font-size: 16px;
 }
 
 #banner-button {
+  font-family: "Rajdhani", sans-serif;
   height: 60px;
   width: 300px;
   background-color: Transparent;
-  border: 3px solid white;
+  border: 3px solid #de0eff;
   text-decoration: none;
   margin-top: 30px;
+  filter: drop-shadow(10px 10px 5px black);
+}
+
+#banner-text {
+  font-size: 24px;
+  font-weight: 1000;
 }
 
 #banner-button:hover {
-  background-color: white;
+  background-color: #de0eff;
   text-decoration: none;
   color: black;
 }
@@ -27,11 +34,12 @@
 }
 
 #navbar-button {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
   position: absolute;
-  margin-top: 17.5px;
+  margin-top: 16px;
   margin-left: 80px;
-  background-color: #99bbff;
-  color: white !important;
+  background-color: #de0eff;
   border: none;
   padding: 5px 10px;
 }

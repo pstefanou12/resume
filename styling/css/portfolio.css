@@ -20,6 +20,11 @@
 
 .portfolio-image {
   width: 100px;
+  filter: drop-shadow(10px 10px 10px grey);
+}
+
+.portfolio-image:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .portfolio-container {
@@ -27,27 +32,27 @@
 }
 
 #nasdaq-container {
-  background-color: #b397de;
+  background-color: #cc7aff;
 }
 
 #csail-container {
-  background-color: #280461;
+  background-color: #8395f1;
 }
 
 #livedata-container {
-  background-color: #5a0ada;
+  background-color: #4c77ef;
 }
 
 #sendfriend-container {
-  background-color: #0139a2;
+  background-color: #c979fb;
 }
 
 #ryc-container {
-  background-color: #6a91da;
+  background-color: #9abdff;
 }
 
 #ymca-container {
-  background-color: #a2018e;
+  background-color: #da7eff;
 }
 
 /*# sourceMappingURL=portfolio.css.map */

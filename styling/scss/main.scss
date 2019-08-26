@@ -7,6 +7,7 @@ $title-color: #de0eff;
 $font-color: black;
 $title-shadow: drop-shadow(10px 10px 5px black);
 $title-font: 'Rajdhani', sans-serif;
+$subtitle-color: #7e00f1;
 
 body {
   background-color: $main-background-color;
@@ -45,8 +46,14 @@ body {
 }
 
 #subtitle {
-  color: white;
   color: $title-color;
   filter: $title-shadow;
   font-family: $title-font;
+}
+
+.sub-title {
+  color: $subtitle-color;
+  font-family: $title-font;
+  font-size: 48px;
+  font-weight: 700; 
 }

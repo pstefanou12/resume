@@ -38,10 +38,16 @@ body {
 }
 
 #subtitle {
-  color: white;
   color: #de0eff;
   filter: drop-shadow(10px 10px 5px black);
   font-family: "Rajdhani", sans-serif;
+}
+
+.sub-title {
+  color: #7e00f1;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */

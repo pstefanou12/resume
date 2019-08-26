@@ -4,10 +4,23 @@
 
 $journey-font-size: 18px;
 $signature-font: 'Herr Von Muellerhoff', cursive;
+$secondary-font: 'Roboto', sans-serif;
+$link-color: #9d2235;
 
 #journey-content {
   margin: 100px 15%;
   font-size: $journey-font-size;
+  font-family: $secondary-font;
+
+  p {
+    a {
+      color: $link-color; 
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 #greeting {

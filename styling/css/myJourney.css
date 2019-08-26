@@ -4,6 +4,13 @@
 #journey-content {
   margin: 100px 15%;
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+#journey-content p a {
+  color: #9d2235;
+}
+#journey-content p a:hover {
+  text-decoration: none;
 }
 
 #greeting {

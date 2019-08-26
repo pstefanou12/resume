@@ -33,26 +33,37 @@
 
 #nasdaq-container {
   background-color: #cc7aff;
+  font-weight: 100;
+  font-family: "nudista-web", Helvetica, Arial, sans-serif;
+  font-style: normal;
 }
 
 #csail-container {
   background-color: #8395f1;
+  font-family: "basis-grotesque-regular", sans-serif;
+  font-feature-settings: "kern", "liga", "pnum";
+  font-size: 1em;
+  font-weight: normal;
 }
 
 #livedata-container {
   background-color: #4c77ef;
+  font-family: Open Sans, Sans-Serif;
 }
 
 #sendfriend-container {
   background-color: #c979fb;
+  font-family: "Gramatika Reg", sans-serif;
 }
 
 #ryc-container {
   background-color: #9abdff;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #ymca-container {
   background-color: #da7eff;
+  font-family: Verdana, Sans-Serif;
 }
 
 /*# sourceMappingURL=portfolio.css.map */

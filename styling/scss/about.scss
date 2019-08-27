@@ -15,12 +15,6 @@ $about-border: 3px solid blue;
   padding: 1.75%;
 }
 
-.information-section {
-  img {
-    width: 40% !important;
-  }
-}
-
 .info-wrapper {
   span {
     padding: 5px;
@@ -84,9 +78,22 @@ $about-border: 3px solid blue;
     margin: 0px 5%;
     border: $about-border;
     filter: drop-shadow(2px 4px 6px grey);
+
+    img {
+      margin: auto;
+    }
 }
 
 .about-content {
   display: flex;
   align-items: center;
+}
+
+#town-swim {
+  max-height: 332px;
+  width: auto !important;
+}
+
+.carousel-inner {
+  background-color: black;
 }

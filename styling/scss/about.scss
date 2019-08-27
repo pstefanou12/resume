@@ -71,6 +71,8 @@ $about-border: 3px solid blue;
 }
 
 .info-container {
+  filter: drop-shadow(2px 4px 6px grey);
+
   p {
     margin: 20px 20px 0px 20px;
     text-align: right;
@@ -81,6 +83,7 @@ $about-border: 3px solid blue;
     width: 30%;
     margin: 0px 5%;
     border: $about-border;
+    filter: drop-shadow(2px 4px 6px grey);
 }
 
 .about-content {

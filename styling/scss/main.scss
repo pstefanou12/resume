@@ -55,5 +55,6 @@ body {
   color: $subtitle-color;
   font-family: $title-font;
   font-size: 48px;
-  font-weight: 700; 
+  font-weight: 700;
+  filter: drop-shadow(2px 4px 6px grey);
 }

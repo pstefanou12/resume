@@ -8,6 +8,7 @@ $content-font-size: 18px;
 .portfolio-section {
   box-sizing: border-box;
   margin: 75px 100px 75px 100px;
+  display: inline-block;
 
   img {
     display: inline-block;
@@ -22,13 +23,15 @@ $content-font-size: 18px;
     font-size: $content-font-size;
   }
 
-  display: inline-block;
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 
 .portfolio-image {
    width: 100px;
-   filter: drop-shadow(10px 10px 10px grey);
+   filter: drop-shadow(10px 10px 10px #3b3b39);
 }
 
 .portfolio-image:hover {
@@ -40,36 +43,61 @@ $content-font-size: 18px;
 }
 
 #nasdaq-container {
-  background-color: #cc7aff;
+  background-color: #be58fd;
   font-weight: 100;
   font-family: "nudista-web",Helvetica,Arial,sans-serif;
   font-style: normal;
+
+  img {
+    height: 125px;
+    width: auto;
+  }
 }
 
 #csail-container {
-  background-color: #8395f1;
+  background-color: #ac43fb;
   font-family: "basis-grotesque-regular", sans-serif;
   font-feature-settings: "kern","liga","pnum";
   font-size: 1em;
   font-weight: normal;
+
+  img {
+    height: 125px;
+    width: auto;
+  }
 }
 
 #livedata-container {
-  background-color: #4c77ef;
+  background-color: #cd6ffd;
   font-family: Open Sans,Sans-Serif;
+
+  img {
+    height: 50px;
+    width: auto;
+  }
 }
 
 #sendfriend-container {
   background-color: #c979fb;
   font-family: 'Gramatika Reg',sans-serif;
+
+  img {
+    height: 100px;
+    width: auto;
+  }
 }
 
 #ryc-container {
-  background-color: #9abdff;
+  background-color: #b21cf1;
   font-family: Helvetica, Arial,sans-serif;
 }
 
 #ymca-container {
-  background-color: #da7eff;
+  background-color: #b03ef7;
   font-family: Verdana, Sans-Serif;
+
+  img {
+    height: 105px;
+      width: auto;
+  }
 }

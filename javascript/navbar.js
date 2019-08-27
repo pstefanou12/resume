@@ -77,5 +77,24 @@ $(document).ready(function() {
     $('html, body').animate({
       scrollTop: $(sectionTo).offset().top
     }, 1000);
-});
+  });
 })
+
+// mobile navbar logic
+$(document).ready(function() {
+  // mobile navbar
+  var mobileNavbar = $('#mobile-navbar');
+  //navbar hamburger
+  var navbarHamburger = $('#hamburger-container');
+  // navbar links
+  var navbarLinks = $('#dropdown-content');
+
+  $(navbarHamburger).click(function() {
+       if ($(navbarLinks).hasClass('invisible-links')) { // toggle if has links
+         console.log("HELLO!!");
+         $(navbarLinks).removeClass('invisible-links');
+       } else {
+          $(navbarLinks).addClass('invisible-links');
+       }
+  });
+});

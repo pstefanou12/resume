@@ -47,38 +47,61 @@
 <!-- navigation bar -->
 <div class="primary-navbar navbar">
   <div id='navbar-container'>
-  <ul>
-    <li>
-        <a href="#about" class="navbar-link">
-          <img src='./images/menu.png' alt='menu' class='navbar-icon'><br />
-          <span class='navbar-label'>ABOUT</span>
-        </a>
-    </li>
-    <li>
-        <a href="#skills" class="navbar-link">
-          <img src='./images/keyboard.png' alt='keyboard' class='navbar-icon'><br />
-          <span class='navbar-label'>SKILLS</span>
-        </a>
-    </li>
-    <li>
-        <a href="#portfolio" class="navbar-link">
-          <img src='./images/combo-chart.png' alt='combo chart' class='navbar-icon'><br />
-          <span class='navbar-label'>PORTFOLIO</span>
-        </a>
-    </li>
-    <li>
-        <a href="#my-journey" class="navbar-link">
-          <img src='./images/waypoint-map.png' alt='map' class='navbar-icon'><br />
-          <span class='navbar-label'>MY JOURNEY</span>
-        </a>
-    </li>
-  </ul>
-  <button id="navbar-button">
-    <a href="./stefanouResume.pdf" target="_blank">
-      View Resume
-    </a>
-  </button>
+    <ul>
+      <li>
+          <a href="#about" class="navbar-link">
+            <img src='./images/menu.png' alt='menu' class='navbar-icon'><br />
+            <span class='navbar-label'>ABOUT</span>
+          </a>
+      </li>
+      <li>
+          <a href="#skills" class="navbar-link">
+            <img src='./images/keyboard.png' alt='keyboard' class='navbar-icon'><br />
+            <span class='navbar-label'>SKILLS</span>
+          </a>
+      </li>
+      <li>
+          <a href="#portfolio" class="navbar-link">
+            <img src='./images/combo-chart.png' alt='combo chart' class='navbar-icon'><br />
+            <span class='navbar-label'>PORTFOLIO</span>
+          </a>
+      </li>
+      <li>
+          <a href="#my-journey" class="navbar-link">
+            <img src='./images/waypoint-map.png' alt='map' class='navbar-icon'><br />
+            <span class='navbar-label'>MY JOURNEY</span>
+          </a>
+      </li>
+    </ul>
+    <button id="navbar-button">
+      <a href="./stefanouResume.pdf" target="_blank">
+        View Resume
+      </a>
+    </button>
+  </div>
 </div>
+
+<div id="mobile-navbar">
+  <div id='hamburger-container'>
+    <div class='hamburger'></div>
+    <div class='hamburger'></div>
+    <div class='hamburger'></div>
+  </div>
+
+  <div id='dropdown-content'>
+    <a href="#about" class="mobile-navbar-link">
+      <div class='dropdown-link'>About</div>
+    </a>
+    <a href="#skills" class="mobile-navbar-link">
+      <div class='dropdown-link'>Skills</div>
+    </a>
+    <a href="#portfolio" class="mobile-navbar-link">
+      <div class='dropdown-link'>Portfolio</div>
+    </a>
+    <a href="#my-journey" class="mobile-navbar-link">
+      <div class='dropdown-link'>My Journey</div>
+    </a>
+  </div>
 </div>
 
 <div class="section" id="about">
@@ -252,10 +275,10 @@
           <img src="./images/ryc.svg" alt='Riverside Yacht Club logo' class='portfolio-image'>
         </a>
         <p class='description'>
-          For the summers after my senior year of high school and freshman years of college,
+          For the summers after my senior year of high school and freshman year of college,
           I served as the Head Water Polo Coach at the Riverside Yacht Club. My responsibilities
           included organizing daily practices, coaching during games, and giving swim
-          lessons. I coached players spanning over ages eight to eighteen.
+          lessons. I coached players spanning over the ages eight to seventeen.
         </p>
       </div>
     </div>

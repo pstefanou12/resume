@@ -91,4 +91,39 @@
   color: #de0eff !important;
 }
 
+.hamburger {
+  width: 35px;
+  height: 2px;
+  background-color: black;
+  margin: 9px auto;
+}
+
+#hamburger-container {
+  border: 1px solid black;
+  width: 50px;
+  border-radius: 10px;
+  background-color: Transparent;
+}
+
+#hamburger-container:hover {
+  background-color: #de0eff;
+  cursor: pointer;
+}
+
+.mobile-navbar-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.mobile-navbar-link:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #de0eff;
+}
+
+.invisible-links {
+  display: none;
+}
+
 /*# sourceMappingURL=navbar.css.map */

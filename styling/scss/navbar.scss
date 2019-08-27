@@ -104,3 +104,42 @@ $title-color: #de0eff;
 .current {
   color: $title-color !important;
 }
+
+.hamburger {
+  width: 35px;
+  height: 2px;
+  background-color: black;
+  margin: 9px auto;
+}
+
+#hamburger-container {
+  border: 1px solid black;
+  width: 50px;
+  border-radius: 10px;
+  background-color: Transparent;
+}
+
+#mobile-navbar {
+
+}
+
+#hamburger-container:hover {
+  background-color: $title-color;
+  cursor: pointer;
+}
+
+.mobile-navbar-link {
+  text-decoration: none;
+  color: black;
+  font-family: $title-font;
+}
+
+.mobile-navbar-link:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: $title-color;
+}
+
+.invisible-links {
+  display: none;
+}

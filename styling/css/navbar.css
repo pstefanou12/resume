@@ -103,6 +103,14 @@
   width: 50px;
   border-radius: 10px;
   background-color: Transparent;
+  float: right;
+  margin: 12.5px 12.5px;
+}
+
+#mobile-navbar {
+  background-color: #7e00f1;
+  border-bottom: 2.5px solid blue;
+  height: 70px;
 }
 
 #hamburger-container:hover {
@@ -124,6 +132,24 @@
 
 .invisible-links {
   display: none;
+}
+
+#dropdown-content {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 1000;
+  top: 0;
+  position: fixed;
+  margin-left: 42.5%;
+  width: 15%;
+  background-color: #7e00f1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 /*# sourceMappingURL=navbar.css.map */

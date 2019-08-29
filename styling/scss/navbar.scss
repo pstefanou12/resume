@@ -5,6 +5,7 @@
 $primary-navbar-height: 100px;
 $secondary-navbar-height: 70px;
 $navbar-color: #7e00f1;
+$navbar-underline: 2.5px solid blue;
 $title-font: 'Rajdhani', sans-serif;
 $title-color: #de0eff;
 
@@ -19,7 +20,7 @@ $title-color: #de0eff;
   transition-duration: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0s;
-  border-bottom: 2.5px solid blue;
+  border-bottom: $navbar-underline;
   border-radius: 0px;
 }
 
@@ -117,10 +118,14 @@ $title-color: #de0eff;
   width: 50px;
   border-radius: 10px;
   background-color: Transparent;
+  float: right;
+  margin: 12.5px 12.5px;
 }
 
 #mobile-navbar {
-
+  background-color: $navbar-color;
+  border-bottom: $navbar-underline;
+  height: 70px;
 }
 
 #hamburger-container:hover {
@@ -142,4 +147,22 @@ $title-color: #de0eff;
 
 .invisible-links {
   display: none;
+}
+
+#dropdown-content {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 1000;
+  top: 0;
+  position: fixed;
+  margin-left: 42.5%;
+  width: 15%;
+  background-color: $navbar-color;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }

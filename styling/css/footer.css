@@ -33,4 +33,14 @@
   font-size: 32px;
 }
 
+@media screen and (max-width: 720px) {
+  #footer {
+    font-size: 16px !important;
+  }
+
+  .footer-name {
+    font-size: 20px !important;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */

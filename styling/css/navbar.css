@@ -144,6 +144,11 @@
   background-color: #7e00f1;
 }
 
+#dropdown-content #resume-option:focus {
+  text-decoration: none;
+  color: #de0eff;
+}
+
 .sticky {
   position: fixed;
   top: 0;

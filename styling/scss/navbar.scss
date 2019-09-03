@@ -159,10 +159,12 @@ $title-color: #de0eff;
   background-color: $navbar-color;
 }
 
-// .dropdown-transition {
-//   transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
-//   transform: translateY(-2em);
-// }
+#dropdown-content {
+  #resume-option:focus {
+    text-decoration: none;
+    color: $title-color; 
+  }
+}
 
 .sticky {
   position: fixed;

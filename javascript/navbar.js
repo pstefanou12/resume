@@ -82,14 +82,10 @@ $(document).ready(function() {
 
 // mobile navbar logic
 $(document).ready(function() {
-  // mobile navbar
-  var mobileNavbar = $('#mobile-navbar');
-  //navbar hamburger
-  var navbarHamburger = $('#hamburger-container');
-  // navbar links
-  var navbarLinks = $('#dropdown-content');
 
   $(window).scroll(function() {
+    var mobileNavbar = $('#mobile-navbar');
+
     // changing thresholds/variables
     var change = $('#background-image').height();
     var changeNavbar = $(window).scrollTop();
@@ -103,8 +99,11 @@ $(document).ready(function() {
   });
 
   $('body').click(function(evt) {
+     // navbar links
+     var navbarLinks = $('#dropdown-content');
      var id = evt.target.id;
      var className = $(evt.target).attr('class');
+
      if ((id == 'hamburger-container' || className == 'hamburger') && $(navbarLinks).hasClass('invisible-links')) { // toggle if has links
        $(navbarLinks).removeClass('invisible-links');
        $(navbarLinks).addClass('dropdown-transition');

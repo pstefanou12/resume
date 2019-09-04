@@ -45,4 +45,15 @@
   color: black !important;
 }
 
+@media screen and (max-width: 775px) {
+  #skills-container {
+    margin: 3% 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #skills-container a {
+    width: 150px;
+  }
+}
+
 /*# sourceMappingURL=skills.css.map */

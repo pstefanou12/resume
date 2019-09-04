@@ -51,4 +51,10 @@ body {
   filter: drop-shadow(2px 4px 6px grey);
 }
 
+@media screen and (max-width: 700px) {
+  .sub-title {
+    padding-left: 30px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

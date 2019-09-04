@@ -46,7 +46,26 @@ $secondary-color: #de0eff;
   }
 
   .footer-name {
-    font-size: 20px !important; 
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #footer {
+    font-size: 10px !important;
   }
 
+  .footer-name {
+    font-size: 16px !important; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #footer {
+    font-size: 8px !important;
+  }
+
+  .footer-name {
+    font-size: 12px !important;
+  }
 }

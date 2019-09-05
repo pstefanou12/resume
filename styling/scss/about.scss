@@ -4,8 +4,8 @@
 
 $info-font-size: 20px;
 $secondary-font: 'Roboto', sans-serif;
-$container-color: #8577f5;
-$about-border: 3px solid blue;
+$container-color: #570076;
+$about-border: 3px solid #7c00ff;
 
 .information-section {
   display: inline-block;
@@ -27,6 +27,7 @@ $about-border: 3px solid blue;
 .info-container {
   border: $about-border;
   background-color: $container-color;
+  color: white;
 }
 
 #information {
@@ -132,7 +133,7 @@ $about-border: 3px solid blue;
 
   #basic-info {
     margin: 0 0 20px 20%;
-    width: 60%; 
+    width: 60%;
   }
 
   #info-info {

@@ -4,6 +4,9 @@
 
 $content-width: 80%;
 $content-font-size: 18px;
+$odd-portfolio-color: #570076;
+$even-portfolio-color: #7c00ff;
+$secondary-font: 'Roboto', sans-serif;
 
 .portfolio-section {
   box-sizing: border-box;
@@ -31,7 +34,7 @@ $content-font-size: 18px;
 
 .portfolio-image {
    width: 100px;
-   filter: drop-shadow(10px 10px 10px #3b3b39);
+   filter: drop-shadow(0px 15px 10px #474747);
    transition: .2s all;
 }
 
@@ -44,21 +47,24 @@ $content-font-size: 18px;
 }
 
 #nasdaq-container {
-  background-color: #be58fd;
+  background-color: $odd-portfolio-color;
   font-weight: 100;
-  font-family: "nudista-web",Helvetica,Arial,sans-serif;
+  font-family: $secondary-font;
   font-style: normal;
 
   img {
     height: 125px;
     width: auto;
   }
+
+  p {
+    color: white;
+  }
 }
 
 #csail-container {
-  background-color: #ac43fb;
-  font-family: "basis-grotesque-regular", sans-serif;
-  font-feature-settings: "kern","liga","pnum";
+  background-color: $even-portfolio-color;
+  font-family: $secondary-font;
   font-size: 1em;
   font-weight: normal;
 
@@ -66,40 +72,60 @@ $content-font-size: 18px;
     height: 125px;
     width: auto;
   }
+
+  p {
+    color: white;
+  }
 }
 
 #livedata-container {
-  background-color: #cd6ffd;
-  font-family: Open Sans,Sans-Serif;
+  background-color: $odd-portfolio-color;
+  font-family: $secondary-font;
 
   img {
     height: 50px;
     width: auto;
   }
+
+  p {
+    color: white;
+  }
 }
 
 #sendfriend-container {
-  background-color: #c979fb;
-  font-family: 'Gramatika Reg',sans-serif;
+  background-color: $even-portfolio-color;
+  font-family: $secondary-font;
 
   img {
     height: 100px;
     width: auto;
   }
+
+  p {
+    color: white;
+  }
 }
 
 #ryc-container {
-  background-color: #b21cf1;
-  font-family: Helvetica, Arial,sans-serif;
+  background-color: $odd-portfolio-color;
+  font-family: $secondary-font;
+
+  p {
+    color: white;
+  }
 }
 
 #ymca-container {
-  background-color: #b03ef7;
-  font-family: Verdana, Sans-Serif;
+  background-color: $even-portfolio-color;
+  font-family: $secondary-font;
 
   img {
     height: 105px;
       width: auto;
+  }
+
+  p {
+    color: white;
   }
 }
 

@@ -6,13 +6,13 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  background-color: #7e00f1;
+  background-color: #b000ff;
   transition: height 0.3s;
   transition-property: height;
   transition-duration: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0s;
-  border-bottom: 2.5px solid blue;
+  border-bottom: 3px solid #7c00ff;
   border-radius: 0px;
 }
 
@@ -35,16 +35,16 @@
   display: flow-root;
 }
 .navbar a:hover {
-  color: #de0eff;
+  color: white;
   text-decoration: none;
 }
 .navbar a:focus {
   text-decoration: none;
-  color: #de0eff;
+  color: white;
 }
 .navbar a:active {
   text-decoration: none;
-  color: #de0eff;
+  color: white;
 }
 
 .primary-navbar {
@@ -91,7 +91,7 @@
 }
 
 .current {
-  color: #de0eff !important;
+  color: white !important;
 }
 
 .hamburger {
@@ -111,13 +111,13 @@
 }
 
 #mobile-navbar {
-  background-color: #7e00f1;
-  border-bottom: 2.5px solid blue;
+  background-color: #b000ff;
+  border-bottom: 3px solid #7c00ff;
   height: 70px;
 }
 
 #hamburger-container:hover {
-  background-color: #de0eff;
+  background-color: white;
   cursor: pointer;
 }
 
@@ -130,7 +130,7 @@
 .mobile-navbar-link:hover {
   cursor: pointer;
   text-decoration: none;
-  color: #de0eff;
+  color: white;
 }
 
 .invisible-links {
@@ -144,12 +144,12 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #7e00f1;
+  background-color: #b000ff;
 }
 
 #dropdown-content #resume-option:focus {
   text-decoration: none;
-  color: #de0eff;
+  color: white;
 }
 
 .sticky {

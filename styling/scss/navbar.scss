@@ -4,10 +4,10 @@
 
 $primary-navbar-height: 100px;
 $secondary-navbar-height: 70px;
-$navbar-color: #7e00f1;
-$navbar-underline: 2.5px solid blue;
+$navbar-color: #b000ff;
+$navbar-underline: 3px solid #7c00ff;
 $title-font: 'Rajdhani', sans-serif;
-$title-color: #de0eff;
+$title-color: white;
 
 .navbar {
   list-style-type: none;
@@ -78,7 +78,7 @@ $title-color: #de0eff;
   text-align: center;
 
   ul {
-    padding-left: 0px; 
+    padding-left: 0px;
   }
 }
 

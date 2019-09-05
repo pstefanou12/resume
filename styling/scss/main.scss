@@ -25,7 +25,7 @@ body {
 
 #background-image {
   height: 630px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../nov.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('../../nov.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -43,6 +43,9 @@ body {
   font-weight: 500;
   color: $title-color;
   filter: $title-shadow;
+  border-bottom: 1px solid $title-color;
+  width: 30%;
+  margin: auto
 }
 
 #subtitle {

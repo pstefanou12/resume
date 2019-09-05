@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stefanou CV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Rajdhani|Roboto:100&display=swap" rel="stylesheet">
+
+  <!-- javascript -->
+  <script src="./javascript/pdfobject.js"></script>
+
+  <!-- styling -->
+  <link rel="stylesheet" href="./styling/css/resume.css">
+
+</head>
+<body>
+  <header id='resume-header'>
+    <button id='go-back'>
+      <a href='./index.html'>
+        Go Back
+      </a>
+    </button>
+  </header>
+    <div id="pdf" style="height:calc(100vh - 75px); margin-top:0px;">
+      <script>PDFObject.embed("./StefanouResume.pdf", "#pdf");</script>
+  </div>
+</body>
+</html>

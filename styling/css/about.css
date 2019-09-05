@@ -59,7 +59,7 @@
 }
 
 .info-container {
-  filter: drop-shadow(2px 4px 6px grey);
+  filter: drop-shadow(0px 15px 10px #474747);
 }
 .info-container p {
   margin: 20px 20px 0px 20px;
@@ -70,7 +70,7 @@
   width: 30%;
   margin: 0px 5%;
   border: 3px solid #7c00ff;
-  filter: drop-shadow(2px 4px 6px grey);
+  filter: drop-shadow(0px 15px 10px #474747);
 }
 .carousel-container img {
   margin: auto;

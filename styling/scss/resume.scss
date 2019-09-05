@@ -1,0 +1,39 @@
+/**
+  * resume page styling
+*/
+
+$navbar-color: #b000ff;
+$navbar-underline: 3px solid #7c00ff;
+$font: 'Roboto', sans-serif;
+
+#resume-header {
+  background-color: $navbar-color;
+  border-bottom: $navbar-underline;
+  height: 100px;
+}
+
+#go-back {
+  background-color: #7c00ff;
+  border: none;
+  padding: 5px 10px;
+  transition: .2s all;
+  margin: 25px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 50px;
+
+  a {
+    color: white;
+    font-family: $font;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+#go-back:hover {
+  transform: scale(1.1, 1.1);
+}

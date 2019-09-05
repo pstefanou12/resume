@@ -1,0 +1,34 @@
+/**
+  * resume page styling
+*/
+#resume-header {
+  background-color: #b000ff;
+  border-bottom: 3px solid #7c00ff;
+  height: 100px;
+}
+
+#go-back {
+  background-color: #7c00ff;
+  border: none;
+  padding: 5px 10px;
+  transition: 0.2s all;
+  margin: 25px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 50px;
+}
+#go-back a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+  font-size: 18px;
+}
+#go-back a:hover {
+  text-decoration: none;
+}
+
+#go-back:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/*# sourceMappingURL=resume.css.map */

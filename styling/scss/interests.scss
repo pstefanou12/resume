@@ -5,7 +5,11 @@
 $secondary-font: 'Roboto', sans-serif;
 $subtitle-color: #7e00f1;
 $border-color: #8742f5;
-$slider-color: #35f038;
+$very-interested-color: #35f038;
+$not-as-interested-color: #ffff00;
+$not-interested-color: #f2aa18;
+$no-interest-color: #fa0000;
+$unknown-interest: #dd00ff;
 
 .interest-pic {
   // width: 22.5%;
@@ -39,10 +43,13 @@ $slider-color: #35f038;
 }
 
 .interest-paragraph {
-  text-align: right;
-  float: right;
-  margin: 2.5% 5% 0 0;
-  width: 20%;
+  width: 50%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
   font-family: $secondary-font;
   font-weight: bolder;
 }
@@ -75,5 +82,30 @@ $slider-color: #35f038;
 
 #ml-interest {
   width: 90%;
-  background-color: $slider-color;
+  background-color: $very-interested-color;
+}
+
+#quant-finance-interest {
+  width: 90%;
+  background-color: $very-interested-color;
+}
+
+#web-development-interest {
+  width: 80%;
+  background-color: $not-as-interested-color;
+}
+
+#fintech-interest {
+  width: 60%;
+  background-color: $not-interested-color;
+}
+
+#blockchain-interest {
+  width: 50%;
+  background-color: $no-interest-color;
+}
+
+#performance-engineering-interest {
+  width: 100%;
+  background-color: $unknown-interest;
 }

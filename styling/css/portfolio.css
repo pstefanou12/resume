@@ -24,6 +24,7 @@
 .portfolio-image {
   width: 100px;
   filter: drop-shadow(10px 10px 10px #3b3b39);
+  transition: 0.2s all;
 }
 
 .portfolio-image:hover {

@@ -76,6 +76,10 @@ $title-color: #de0eff;
 
 #navbar-container {
   text-align: center;
+
+  ul {
+    padding-left: 0px; 
+  }
 }
 
 .navbar-icon {
@@ -162,7 +166,7 @@ $title-color: #de0eff;
 #dropdown-content {
   #resume-option:focus {
     text-decoration: none;
-    color: $title-color; 
+    color: $title-color;
   }
 }
 

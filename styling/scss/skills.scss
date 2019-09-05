@@ -46,6 +46,7 @@ $secondary-font: 'Roboto', sans-serif;
   height: $skill-height;
   margin: 40px 0px;
   filter: drop-shadow(10px 10px 10px grey);
+  transition: .2s all;
 }
 
 .skill:hover {
@@ -66,7 +67,7 @@ $secondary-font: 'Roboto', sans-serif;
 @media screen and (max-width: 600px) {
   #skills-container {
     a {
-      width: 150px; 
+      width: 150px;
     }
   }
 }

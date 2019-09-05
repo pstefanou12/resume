@@ -62,6 +62,9 @@
 #navbar-container {
   text-align: center;
 }
+#navbar-container ul {
+  padding-left: 0px;
+}
 
 .navbar-icon {
   height: 35px;

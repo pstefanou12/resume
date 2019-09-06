@@ -28,7 +28,7 @@
   font-family: "Roboto", sans-serif;
   color: #7e00f1;
   filter: drop-shadow(2px 4px 6px grey);
-  margin-left: 5%;
+  margin-left: 7.5%;
 }
 
 .interest-paragraph {
@@ -58,6 +58,7 @@
   font-weight: bolder;
   padding-right: 25px;
   border-radius: 7px;
+  transition: width 2s;
 }
 
 .slider-container {
@@ -67,35 +68,44 @@
   border: 3px solid black;
   margin-top: 2%;
   border-radius: 10px;
+  filter: drop-shadow(1px 1px 10px);
 }
 
 #ml-interest {
-  width: 90%;
+  width: 0%;
   background-color: #35f038;
+}
+
+#ml-interest-level {
+  width: 90%;
 }
 
 #quant-finance-interest {
-  width: 90%;
+  width: 0%;
   background-color: #35f038;
 }
 
+#quant-finance-interest-level {
+  width: 90%;
+}
+
 #web-development-interest {
-  width: 80%;
+  width: 0%;
   background-color: #ffff00;
 }
 
 #fintech-interest {
-  width: 60%;
+  width: 0%;
   background-color: #f2aa18;
 }
 
 #blockchain-interest {
-  width: 50%;
+  width: 0%;
   background-color: #fa0000;
 }
 
 #performance-engineering-interest {
-  width: 100%;
+  width: 0%;
   background-color: #dd00ff;
 }
 

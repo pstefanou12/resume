@@ -12,6 +12,7 @@
 }
 #footer a {
   margin: 0px 10px;
+  transition: 0.2s all;
 }
 #footer a:hover {
   text-decoration: none;

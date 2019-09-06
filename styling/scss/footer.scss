@@ -16,6 +16,22 @@ $footer-border: 3px solid #7c00ff;
   font-size: 22px;
   border-top: $footer-border;
   color: $secondary-color !important;
+
+  a {
+    margin: 0px 10px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:focus {
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none; 
+  }
 }
 
 .footer-col {

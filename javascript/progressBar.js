@@ -54,6 +54,8 @@ $(document).ready(function() {
 
         if (checkvisible(elem)) {
           elem.css({'width': width + '%'});
+        } else {
+          elem.css({'width': '0%'});
         }
     }
 

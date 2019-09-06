@@ -10,6 +10,18 @@
   border-top: 3px solid #7c00ff;
   color: black !important;
 }
+#footer a {
+  margin: 0px 10px;
+}
+#footer a:hover {
+  text-decoration: none;
+}
+#footer a:focus {
+  text-decoration: none;
+}
+#footer a:active {
+  text-decoration: none;
+}
 
 .footer-col {
   display: inline-block;

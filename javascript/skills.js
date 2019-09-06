@@ -19,6 +19,7 @@ $(document).ready(function() {
     'Pandas': Skill('Pandas', 'pandas.png', 'https://pandas.pydata.org'),
     'Bash': Skill('Bash', 'bash.png', 'https://www.gnu.org/software/bash/'),
     'Git': Skill('Git', 'git.png', 'https://git-scm.com'),
+    'AWS': Skill('AWS', 'aws.png', 'https://aws.amazon.com'), 
     'SQL': Skill('SQL', 'sql.png', 'https://www.w3schools.com/sql/'),
     'C': Skill('C', 'c.png', 'https://www.tutorialspoint.com/cprogramming/index.htm'),
     'C++': Skill('C++', 'c++.png', 'https://www.w3schools.com/cpp/'),
@@ -26,7 +27,7 @@ $(document).ready(function() {
     'TensorFlow': Skill('TensorFlow', 'tensorflow.png', 'https://www.tensorflow.org'),
     'Horovod': Skill('Horovod', 'horovod.png', 'https://github.com/horovod/horovod'),
     'Solidity': Skill('Solidity', 'ethereum.png', 'https://solidity.readthedocs.io/en/v0.5.10/'),
-    'Truffle': Skill('Truffle', 'truffle.webp', 'https://www.trufflesuite.com'), 
+    'Truffle': Skill('Truffle', 'truffle.webp', 'https://www.trufflesuite.com'),
   };
 
   var skillKeys = Object.keys(skills);

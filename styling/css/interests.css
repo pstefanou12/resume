@@ -49,8 +49,8 @@
 
 .static-slider {
   text-align: right;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
   font-family: "Roboto", sans-serif;
   color: black;
@@ -62,7 +62,7 @@
 }
 
 .slider-container {
-  width: 60%;
+  width: 50%;
   background-color: #ddd;
   margin: auto;
   border: 3px solid black;
@@ -101,7 +101,7 @@
 
 #blockchain-interest {
   width: 0%;
-  background-color: #fa0000;
+  background-color: #f14e29;
 }
 
 #performance-engineering-interest {

@@ -18,16 +18,16 @@
 }
 
 .info-container {
-  border: 3px solid #7c00ff;
-  background-color: #570076;
-  color: white;
+  border: 3px solid #E745E8;
+  background-color: #b000ff;
+  color: black;
 }
 
 #information {
   margin: 0px 5%;
   overflow: hidden;
   background-color: #8282e6;
-  border: 3px solid #7c00ff;
+  border: 3px solid #E745E8;
   font-family: "Roboto", sans-serif;
 }
 
@@ -60,6 +60,7 @@
 
 .info-container {
   filter: drop-shadow(0px 15px 10px #474747);
+  font-weight: 900;
 }
 .info-container p {
   margin: 20px 20px 0px 20px;
@@ -69,11 +70,17 @@
 .carousel-container {
   width: 30%;
   margin: 0px 5%;
-  border: 3px solid #7c00ff;
+  border: 3px solid #E745E8;
   filter: drop-shadow(0px 15px 10px #474747);
 }
 .carousel-container img {
   margin: auto;
+}
+
+.carousel-caption {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .about-content {

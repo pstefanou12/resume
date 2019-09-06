@@ -8,7 +8,7 @@ $border-color: #8742f5;
 $very-interested-color: #35f038;
 $not-as-interested-color: #ffff00;
 $not-interested-color: #f2aa18;
-$no-interest-color: #fa0000;
+$no-interest-color: #f14e29;
 $unknown-interest: #dd00ff;
 
 .interest-pic {
@@ -60,8 +60,8 @@ $unknown-interest: #dd00ff;
 
 .static-slider {
   text-align: right;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
   font-family: $secondary-font;
   color: black;
@@ -73,7 +73,7 @@ $unknown-interest: #dd00ff;
 }
 
 .slider-container {
-  width: 60%;
+  width: 50%;
   background-color: #ddd;
   margin: auto;
   border: 3px solid black;

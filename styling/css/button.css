@@ -40,7 +40,7 @@
   position: absolute;
   margin-top: 16px;
   margin-left: 80px;
-  background-color: #7c00ff;
+  background-color: #DA91FF;
   border: none;
   padding: 5px 10px;
   transition: 0.2s all;
@@ -55,7 +55,7 @@
 }
 
 #resume-button {
-  background-color: #b000ff;
+  background-color: #DA91FF;
   font-family: "Roboto", sans-serif;
   border: none;
   margin: 20px;
@@ -65,7 +65,8 @@
 }
 #resume-button a {
   text-decoration: none;
-  color: white;
+  font-weight: 900;
+  color: black;
   font-size: 18px;
 }
 

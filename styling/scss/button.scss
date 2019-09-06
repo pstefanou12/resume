@@ -46,7 +46,7 @@ $secondary-font: 'Roboto', sans-serif;
   position: absolute;
   margin-top: 16px;
   margin-left: 80px;
-  background-color: #7c00ff;
+  background-color: #DA91FF;
   border: none;
   padding: 5px 10px;
   transition: .2s all;
@@ -63,7 +63,7 @@ $secondary-font: 'Roboto', sans-serif;
 }
 
 #resume-button {
-  background-color: #b000ff;
+  background-color: #DA91FF;
   font-family: $secondary-font;
   border: none;
   margin: 20px;
@@ -73,7 +73,8 @@ $secondary-font: 'Roboto', sans-serif;
 
   a {
     text-decoration: none;
-    color: white;
+    font-weight: 900;
+    color: black; 
     font-size: 18px;
   }
 }

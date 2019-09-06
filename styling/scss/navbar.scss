@@ -5,7 +5,7 @@
 $primary-navbar-height: 100px;
 $secondary-navbar-height: 70px;
 $navbar-color: #b000ff;
-$navbar-underline: 3px solid #7c00ff;
+$navbar-underline: 3px solid #E745E8;
 $title-font: 'Rajdhani', sans-serif;
 $title-color: white;
 
@@ -45,6 +45,7 @@ $title-color: white;
   a {
     color: black;
     display: flow-root;
+    transition: .2s all;
   }
 
   a:hover {
@@ -141,6 +142,7 @@ $title-color: white;
   text-decoration: none;
   color: black;
   font-family: $title-font;
+  transition: .2s all;
 }
 
 .mobile-navbar-link:hover {

@@ -4,8 +4,8 @@
 
 $info-font-size: 20px;
 $secondary-font: 'Roboto', sans-serif;
-$container-color: #570076;
-$about-border: 3px solid #7c00ff;
+$container-color: #b000ff;
+$about-border: 3px solid #E745E8;
 
 .information-section {
   display: inline-block;
@@ -27,7 +27,7 @@ $about-border: 3px solid #7c00ff;
 .info-container {
   border: $about-border;
   background-color: $container-color;
-  color: white;
+  color: black;
 }
 
 #information {
@@ -67,6 +67,7 @@ $about-border: 3px solid #7c00ff;
 
 .info-container {
   filter: drop-shadow(0px 15px 10px #474747);
+  font-weight: 900;
 
   p {
     margin: 20px 20px 0px 20px;
@@ -83,6 +84,12 @@ $about-border: 3px solid #7c00ff;
     img {
       margin: auto;
     }
+}
+
+.carousel-caption {
+  font-family: $secondary-font;
+  font-weight: bold;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .about-content {

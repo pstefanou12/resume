@@ -15,9 +15,9 @@ $title-color: white;
   padding: 0;
   text-decoration: none;
   background-color: $navbar-color;
-  transition: height 0.3s;
+  transition: height 0.2s;
   transition-property: height;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   transition-timing-function: ease;
   transition-delay: 0s;
   border-bottom: $navbar-underline;
@@ -170,6 +170,11 @@ $title-color: white;
     text-decoration: none;
     color: $title-color;
   }
+}
+
+#navbar-logo-link {
+  float: left;
+  transition: .2s all;
 }
 
 .sticky {

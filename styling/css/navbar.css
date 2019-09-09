@@ -7,9 +7,9 @@
   padding: 0;
   text-decoration: none;
   background-color: #b000ff;
-  transition: height 0.3s;
+  transition: height 0.2s;
   transition-property: height;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   transition-timing-function: ease;
   transition-delay: 0s;
   border-bottom: 3px solid #E745E8;
@@ -152,6 +152,11 @@
 #dropdown-content #resume-option:focus {
   text-decoration: none;
   color: white;
+}
+
+#navbar-logo-link {
+  float: left;
+  transition: 0.2s all;
 }
 
 .sticky {

@@ -14,6 +14,8 @@ $(document).ready(function() {
   // navbar resume button
   var navResumeButton = $('#navbar-button');
   var resumeButton = $('#resume-button');
+  // navbar icon logo
+  var navbarLogo = $('#navbar-logo-link');
 
   // highlight navbar section when scroll over it
   $(window).scroll(function() {
@@ -50,12 +52,16 @@ $(document).ready(function() {
 
       icons.addClass('remove-icon');
       links.addClass('navbar-link');
+      navbarLogo.removeClass('invisible-button'); 
+
     } else {
       navbar.removeClass('secondary-navbar');
       navbar.addClass('primary-navbar');
 
       icons.removeClass('remove-icon');
       links.removeClass('navbar-link');
+
+      navbarLogo.addClass('invisible-button');
     }
   });
 

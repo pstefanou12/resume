@@ -53,18 +53,18 @@ $(document).ready(function() {
         }
 
         if (checkvisible(elem)) {
-          elem.css({'width': width + '%'});
+          elem.css({'width': width + '%'}); 
         } else {
           elem.css({'width': '0%'});
         }
     }
 
     // function calls
-    var ml = setInterval(interestBar(mlSlider, mlTarget, '90'), 10);
-    var ml = setInterval(interestBar(quantFinanceSlider, quantFinanceTarget, '90'), 10);
-    var ml = setInterval(interestBar(webDevelopmentSlider, webDevTarget, '80'), 10);
-    var ml = setInterval(interestBar(finTechSlider, finTechTarget, '60'), 10);
-    var ml = setInterval(interestBar(blockchainSlider, blockchainTarget, '50'), 10);
-    var ml = setInterval(interestBar(performanceEngineeringSlider, performanceEngineeringTarget, '100'), 10);
+    interestBar(mlSlider, mlTarget, '90');
+    interestBar(quantFinanceSlider, quantFinanceTarget, '90');
+    interestBar(webDevelopmentSlider, webDevTarget, '80');
+    interestBar(finTechSlider, finTechTarget, '60');
+    interestBar(blockchainSlider, blockchainTarget, '50');
+    interestBar(performanceEngineeringSlider, performanceEngineeringTarget, '100');
   })
 });

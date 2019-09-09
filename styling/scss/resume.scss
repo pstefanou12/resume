@@ -11,6 +11,11 @@ $font: 'Roboto', sans-serif;
   border-bottom: $navbar-underline;
   height: 100px;
 }
+#ps-logo {
+  height: 70px;
+  padding: 15px;
+  margin-top: 10px; 
+}
 
 #go-back {
   background-color: #7c00ff;
@@ -21,6 +26,7 @@ $font: 'Roboto', sans-serif;
   vertical-align: middle;
   box-sizing: border-box;
   height: 50px;
+  float: right;
 
   a {
     color: white;

@@ -20,7 +20,13 @@
 .info-container {
   border: 3px solid #E745E8;
   background-color: #b000ff;
-  color: black;
+  color: white !important;
+  filter: drop-shadow(0px 15px 10px #474747);
+  font-weight: 900;
+}
+.info-container p {
+  margin: 20px 20px 0px 20px;
+  text-align: right;
 }
 
 #information {
@@ -56,15 +62,6 @@
 #basic-info {
   font-family: "Roboto", sans-serif;
   margin-left: 5%;
-}
-
-.info-container {
-  filter: drop-shadow(0px 15px 10px #474747);
-  font-weight: 900;
-}
-.info-container p {
-  margin: 20px 20px 0px 20px;
-  text-align: right;
 }
 
 .carousel-container {

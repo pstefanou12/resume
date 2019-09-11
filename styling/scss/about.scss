@@ -27,7 +27,14 @@ $about-border: 3px solid #E745E8;
 .info-container {
   border: $about-border;
   background-color: $container-color;
-  color: black;
+  color: white !important;
+  filter: drop-shadow(0px 15px 10px #474747);
+  font-weight: 900;
+
+  p {
+    margin: 20px 20px 0px 20px;
+    text-align: right;
+  }
 }
 
 #information {
@@ -63,16 +70,6 @@ $about-border: 3px solid #E745E8;
 #basic-info {
   font-family: $secondary-font;
   margin-left: 5%;
-}
-
-.info-container {
-  filter: drop-shadow(0px 15px 10px #474747);
-  font-weight: 900;
-
-  p {
-    margin: 20px 20px 0px 20px;
-    text-align: right;
-  }
 }
 
 .carousel-container {

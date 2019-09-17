@@ -2,8 +2,8 @@
   * resume page styling
 */
 #resume-header {
-  background-color: #b000ff;
-  border-bottom: 3px solid #7c00ff;
+  background-color: #3366ff;
+  border-bottom: 5px solid #003366;
   height: 100px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 #go-back {
-  background-color: #7c00ff;
+  background-color: #d7f3ff;
   border: none;
   padding: 5px 10px;
   transition: 0.2s all;
@@ -25,7 +25,8 @@
   float: right;
 }
 #go-back a {
-  color: white;
+  color: black;
+  font-weight: bold;
   font-family: "Roboto", sans-serif;
   padding: 15px;
   font-size: 18px;

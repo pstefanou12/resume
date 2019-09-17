@@ -2,8 +2,8 @@
   * resume page styling
 */
 
-$navbar-color: #b000ff;
-$navbar-underline: 3px solid #7c00ff;
+$navbar-color: #3366ff;
+$navbar-underline: 5px solid #003366;
 $font: 'Roboto', sans-serif;
 
 #resume-header {
@@ -14,11 +14,11 @@ $font: 'Roboto', sans-serif;
 #ps-logo {
   height: 70px;
   padding: 15px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 #go-back {
-  background-color: #7c00ff;
+  background-color: #d7f3ff;
   border: none;
   padding: 5px 10px;
   transition: .2s all;
@@ -29,7 +29,8 @@ $font: 'Roboto', sans-serif;
   float: right;
 
   a {
-    color: white;
+    color: black;
+    font-weight: bold; 
     font-family: $font;
     padding: 15px;
     font-size: 18px;

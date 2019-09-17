@@ -1,17 +1,78 @@
-/* Error: Expected expression.
- *    ,
- * 79 |     margin-top: : -50px;
- *    |                 ^
- *    '
- *   main.scss 79:17  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a    \2577 \a 79 \2502      margin-top: : -50px;\a    \2502                  ^\a    \2575 \a   main.scss 79:17  root stylesheet";
+/**
+ * main, overall styling
+*/
+body {
+  background-color: #96B8DE;
+  color: black;
+  line-height: 1.75;
 }
+
+.section {
+  padding-top: 100px;
+}
+
+.sub-title {
+  padding: 0px 0px 25px 75px;
+}
+
+#background-image {
+  height: 630px;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../nov.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  text-align: center;
+}
+
+#title {
+  font-size: 72px;
+  margin-top: 0;
+  padding-top: 200px;
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #5995da;
+  filter: drop-shadow(10px 10px 5px black);
+  border-bottom: 1px solid #5995da;
+  width: 30%;
+  margin: auto;
+}
+
+#subtitle {
+  color: #5995da;
+  filter: drop-shadow(10px 10px 5px black);
+  font-family: "Rajdhani", sans-serif;
+}
+
+.sub-title {
+  color: black;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  filter: drop-shadow(2px 4px 6px grey);
+}
+
+#ps-logo {
+  display: flex;
+  height: 70px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .sub-title {
+    padding-left: 30px;
+  }
+
+  #title {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #title {
+    margin-top: -50px;
+  }
+}
+
+/*# sourceMappingURL=m.map */

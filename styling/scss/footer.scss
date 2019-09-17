@@ -2,11 +2,21 @@
  * footer section styling
 */
 
-$footer-height: 200px;
+$footer-height: 350px;
 $footer-color: #3366ff;
 $title-font: 'Rajdhani', sans-serif;
 $secondary-color: black;
 $footer-border: 10px solid #003366;
+
+.fa {
+  color: white;
+  transform: scale(2);
+  padding: 10px;
+}
+
+.fa:hover {
+  color: #84ccea;
+}
 
 #footer {
   font-family: $title-font;
@@ -39,12 +49,11 @@ $footer-border: 10px solid #003366;
   display: inline-block;
   box-sizing: border-box;
   margin-top: 60px;
+  width: 30%;
+  vertical-align: top;
 }
 
 .address {
-  float: left;
-  text-align: left;
-  margin-left: 30px;
 }
 
 .contact {
@@ -54,7 +63,41 @@ $footer-border: 10px solid #003366;
 }
 
 .footer-name {
-  font-size: 32px;
+  font-size: 35px;
+}
+
+.quick-links {
+  #ql-title {
+    float: left;
+    font-size: 27px;
+    padding-bottom: 10px;
+  }
+
+  a {
+    color: black;
+    float: left;
+    margin: 0px !important;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  a:hover {
+    color: #84ccea;
+  }
+}
+
+.mit-info {
+  text-align: right;
+
+  #mit {
+    font-size: 27px;
+  }
+
+  .mit-info {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 720px) {

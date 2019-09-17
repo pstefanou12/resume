@@ -5,13 +5,13 @@
 $secondary-color: #de0eff;
 $title-font: 'Rajdhani', sans-serif;
 $secondary-font: 'Roboto', sans-serif;
+$button-color: #d7f3ff;
 
 #banner-link {
   text-decoration: none;
   color: $secondary-color;
   font-size: 16px;
 }
-
 
 #banner-button {
   font-family: $title-font;
@@ -46,7 +46,7 @@ $secondary-font: 'Roboto', sans-serif;
   position: absolute;
   margin-top: 16px;
   margin-left: 80px;
-  background-color: #DA91FF;
+  background-color: $button-color;
   border: none;
   padding: 5px 10px;
   transition: .2s all;
@@ -59,11 +59,12 @@ $secondary-font: 'Roboto', sans-serif;
 #navbar-button {
   a {
     color: black !important;
+    font-weight: bold;
   }
 }
 
 #resume-button {
-  background-color: #96b8de;
+  background-color: $button-color;
   font-family: $secondary-font;
   border: none;
   margin: 20px;
@@ -73,7 +74,7 @@ $secondary-font: 'Roboto', sans-serif;
 
   a {
     text-decoration: none;
-    font-weight: 900;
+    font-weight: bold;
     color: black;
     font-size: 18px;
   }

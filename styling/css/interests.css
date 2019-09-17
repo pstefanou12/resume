@@ -29,6 +29,7 @@
   color: black;
   filter: drop-shadow(2px 4px 6px grey);
   margin-left: 7.5%;
+  font-weight: bold;
 }
 
 .interest-paragraph {
@@ -38,7 +39,7 @@
   margin: auto;
   margin-top: 40px;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
 }
@@ -101,7 +102,7 @@
 
 #blockchain-interest {
   width: 0%;
-  background-color: #f14e29;
+  background-color: #fd9f2d;
 }
 
 #performance-engineering-interest {

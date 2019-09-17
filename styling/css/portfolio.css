@@ -3,19 +3,21 @@
 */
 .portfolio-section {
   box-sizing: border-box;
-  margin: 75px 100px 75px 100px;
-  display: inline-block;
+  display: grid;
 }
 .portfolio-section img {
-  display: inline-block;
+  margin: 3%;
 }
 .portfolio-section p {
-  width: 80%;
   display: inline-block;
   text-align: left;
-  padding: 0px 30px;
+  padding: 0px 10%;
   vertical-align: -webkit-baseline-middle;
-  font-size: 18px;
+  font-size: 20px;
+  margin-bottom: 7%;
+}
+.portfolio-section a {
+  margin-top: 2%;
 }
 .portfolio-section a:hover {
   text-decoration: none;
@@ -36,13 +38,12 @@
 }
 
 #nasdaq-container {
-  background-color: #570076;
-  font-weight: 100;
+  background-color: #3983CA;
+  font-weight: bolder;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
 }
 #nasdaq-container img {
-  height: 125px;
+  height: 200px;
   width: auto;
 }
 #nasdaq-container p {
@@ -50,13 +51,13 @@
 }
 
 #csail-container {
-  background-color: #7c00ff;
+  background-color: #9575CD;
   font-family: "Roboto", sans-serif;
-  font-size: 1em;
-  font-weight: normal;
+  font-size: 20px;
+  font-weight: bolder;
 }
 #csail-container img {
-  height: 125px;
+  height: 200px;
   width: auto;
 }
 #csail-container p {
@@ -64,11 +65,13 @@
 }
 
 #livedata-container {
-  background-color: #570076;
+  background-color: #3983CA;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
 }
 #livedata-container img {
-  height: 50px;
+  height: 100px;
   width: auto;
 }
 #livedata-container p {
@@ -76,11 +79,13 @@
 }
 
 #sendfriend-container {
-  background-color: #7c00ff;
+  background-color: #9575CD;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
 }
 #sendfriend-container img {
-  height: 100px;
+  height: 200px;
   width: auto;
 }
 #sendfriend-container p {
@@ -88,19 +93,26 @@
 }
 
 #ryc-container {
-  background-color: #570076;
+  background-color: #3983CA;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#ryc-container img {
+  width: 200px;
 }
 #ryc-container p {
   color: white;
 }
 
 #ymca-container {
-  background-color: #7c00ff;
+  background-color: #9575CD;
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
 }
 #ymca-container img {
-  height: 105px;
+  height: 175px;
   width: auto;
 }
 #ymca-container p {

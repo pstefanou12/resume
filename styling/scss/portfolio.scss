@@ -2,28 +2,31 @@
  * portfolio section styling
 */
 
-$content-width: 80%;
-$content-font-size: 18px;
-$odd-portfolio-color: #570076;
-$even-portfolio-color: #7c00ff;
+$content-font-size: 20px;
+$content-font-weight: bolder;
+$odd-portfolio-color: #3983CA;
+$even-portfolio-color: #9575CD;
 $secondary-font: 'Roboto', sans-serif;
 
 .portfolio-section {
   box-sizing: border-box;
-  margin: 75px 100px 75px 100px;
-  display: inline-block;
+  display: grid;
 
   img {
-    display: inline-block;
+    margin: 3%;
   }
 
   p {
-    width: $content-width;
     display: inline-block;
     text-align: left;
-    padding: 0px 30px;
+    padding: 0px 10%;
     vertical-align: -webkit-baseline-middle;
     font-size: $content-font-size;
+    margin-bottom: 7%;
+  }
+
+  a {
+    margin-top: 2%;
   }
 
   a:hover {
@@ -48,12 +51,11 @@ $secondary-font: 'Roboto', sans-serif;
 
 #nasdaq-container {
   background-color: $odd-portfolio-color;
-  font-weight: 100;
+  font-weight: $content-font-weight;
   font-family: $secondary-font;
-  font-style: normal;
 
   img {
-    height: 125px;
+    height: 200px;
     width: auto;
   }
 
@@ -65,11 +67,11 @@ $secondary-font: 'Roboto', sans-serif;
 #csail-container {
   background-color: $even-portfolio-color;
   font-family: $secondary-font;
-  font-size: 1em;
-  font-weight: normal;
+  font-size: $content-font-size;
+  font-weight: $content-font-weight;
 
   img {
-    height: 125px;
+    height: 200px;
     width: auto;
   }
 
@@ -81,20 +83,8 @@ $secondary-font: 'Roboto', sans-serif;
 #livedata-container {
   background-color: $odd-portfolio-color;
   font-family: $secondary-font;
-
-  img {
-    height: 50px;
-    width: auto;
-  }
-
-  p {
-    color: white;
-  }
-}
-
-#sendfriend-container {
-  background-color: $even-portfolio-color;
-  font-family: $secondary-font;
+  font-size: $content-font-size;
+  font-weight: $content-font-weight;
 
   img {
     height: 100px;
@@ -106,9 +96,31 @@ $secondary-font: 'Roboto', sans-serif;
   }
 }
 
+#sendfriend-container {
+  background-color: $even-portfolio-color;
+  font-family: $secondary-font;
+  font-size: $content-font-size;
+  font-weight: $content-font-weight;
+
+  img {
+    height: 200px;
+    width: auto;
+  }
+
+  p {
+    color: white;
+  }
+}
+
 #ryc-container {
   background-color: $odd-portfolio-color;
   font-family: $secondary-font;
+  font-size: $content-font-size;
+  font-weight: $content-font-weight;
+
+  img {
+    width: 200px;
+  }
 
   p {
     color: white;
@@ -118,10 +130,12 @@ $secondary-font: 'Roboto', sans-serif;
 #ymca-container {
   background-color: $even-portfolio-color;
   font-family: $secondary-font;
+  font-size: $content-font-size;
+  font-weight: $content-font-weight;
 
   img {
-    height: 105px;
-      width: auto;
+    height: 175px;
+    width: auto;
   }
 
   p {

@@ -10,8 +10,9 @@
 }
 
 .info-wrapper {
-  text-align: right;
-  padding: 5px 0px;
+  text-align: left;
+  padding: 12px 0px;
+  border-bottom: 1px solid rgba(3, 15, 38, 0.3);
 }
 .info-wrapper span {
   padding: 5px;
@@ -24,7 +25,7 @@
 }
 .info-container p {
   margin: 20px 20px 0px 20px;
-  text-align: left;
+  text-align: right;
 }
 
 #information {
@@ -44,11 +45,11 @@
 }
 
 #info-info {
-  float: right;
-  font-size: 19.5px;
+  float: left;
+  font-size: 15px;
   width: 30%;
   font-family: "Roboto", sans-serif;
-  margin-right: 5%;
+  margin-left: 2.5%;
 }
 
 .info-image {
@@ -57,12 +58,13 @@
 
 #basic-info {
   font-family: "Roboto", sans-serif;
-  margin-left: 5%;
+  margin-right: 2.5%;
+  width: 30%;
 }
 
 .carousel-container {
   width: 30%;
-  margin: 0px 5%;
+  margin: 0px 2.5%;
   border: 6px solid #2a6ebc;
   padding: 6px;
   background-color: #cacaca;

@@ -6,6 +6,8 @@ $journey-font-size: 18px;
 $signature-font: 'Herr Von Muellerhoff', cursive;
 $secondary-font: 'Roboto', sans-serif;
 $link-color: #9d2235;
+$padding-border-color: #cacaca;
+$photo-border: 6px solid #2a6ebc;
 
 #journey-content {
   margin: 0px 15% 75px 15%;
@@ -35,12 +37,16 @@ $link-color: #9d2235;
   height: 200px;
   float: left;
   margin: 0px 20px 0px 0px;
+  padding: 6px;
+  background-color: $padding-border-color;
 }
 
 #throwback-photo {
   height: 200px;
   float: right;
   margin: 20px;
+  padding: 6px;
+  background-color: $padding-border-color;
 }
 
 #strokes-photo {
@@ -55,6 +61,6 @@ $link-color: #9d2235;
 }
 
 .journey-photo {
-  border: 4px solid #E745E8;
+  border: $photo-border;
   filter: drop-shadow(0px 15px 10px #474747);
 }

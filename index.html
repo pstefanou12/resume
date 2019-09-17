@@ -130,30 +130,22 @@
     About
   </h2>
     <div class='about-content'>
-      <!-- full name -->
-      <div class='information-section info-container' id='basic-info'>
-        <div class='info-wrapper'>
-          <span class='info'><b>Name: </b></span>
-          <span class='content'>Patroklos N. Stefanou</span>
-        </div>
-
-        <!-- year -->
-        <div class='info-wrapper'>
-          <span class='info'><b>Year: </b></span>
-          <span class='content'>Senior</span>
-        </div>
-
-        <!-- email -->
-        <div class='info-wrapper'>
-          <span class='info'><b>Email: </b></span>
-          <span class='content'>stefanou@mit.edu</span>
-        </div>
-
-        <!-- phone number -->
-        <div class='info-wrapper'>
-          <span class='info'><b>Cell: </b></span>
-          <span class='content'> 203-912-2909</span>
-        </div>
+    <div class='info-container' id='info-info'>
+      <p>
+        I am Pat Stefanou and I am a senior at MIT studying Computer Science and Engineering.
+        I am passionate about technology, innovation, and creativity with a focus in software
+        engineering, machine learning, and artificial intelligence. I am a hard-working, driven developer with a diverse
+        skillset that I have developed through multiple projects and internships. Last summer, I worked
+        at the NASDAQ Global Innovation lab, where I worked with a team of four interns to prototype a full-stack
+        application to monitor fraudulent activity in sports betting markets. I have also explored software for machine learning
+        at LiveData Utilies and CSAIL, and fintech at SendFriend, a DAPP startup for remittance payments.
+        These experiences have equipped me with the work ethic and skillset to excel in any work environment.
+      </p>
+      <button id='resume-button'>
+        <a href="./resume.html" target="_blank">
+          View Resume
+        </a>
+      </button>
     </div>
     <div class="carousel-container">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -188,6 +180,8 @@
           </div>
         </div>
 
+
+
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
@@ -199,18 +193,42 @@
         </a>
       </div>
     </div>
-    <div class='info-container' id='info-info'>
-      <p>
-        I am Pat Stefanou and I am a senior at MIT studying computer science.
-        I am a hard-working, driven software engineer with a diverse
-        skillset that I have developed through multiple projects and internships.
-        I am a quick learner and am exicted to learn new technologies.
-      </p>
-      <button id='resume-button'>
-        <a href="./resume.html" target="_blank">
-          View Resume
-        </a>
-      </button>
+    <div class='information-section info-container' id='basic-info'>
+      <!-- full name -->
+      <div class='info-wrapper'>
+        <span class='info'><b>Name: </b></span>
+        <span class='content'>Patroklos N. Stefanou</span>
+      </div>
+
+      <!-- hometown -->
+      <div class='info-wrapper'>
+        <span class='info'><b>Hometown: </b></span>
+        <span class='content'>Greenwich, CT</span>
+      </div>
+
+      <!-- age -->
+      <div class='info-wrapper'>
+        <span class='info'><b>Age: </b></span>
+        <span class='content'>21</span>
+      </div>
+
+      <!-- year -->
+      <div class='info-wrapper'>
+        <span class='info'><b>Year: </b></span>
+        <span class='content'>Senior</span>
+      </div>
+
+      <!-- email -->
+      <div class='info-wrapper'>
+        <span class='info'><b>Email: </b></span>
+        <span class='content'>stefanou@mit.edu</span>
+      </div>
+
+      <!-- phone number -->
+      <div class='info-wrapper'>
+        <span class='info'><b>Cell: </b></span>
+        <span class='content'> (203) 912-2909</span>
+      </div>
     </div>
   </div>
 </div>
@@ -432,6 +450,7 @@
       </p>
     </div>
 </div>
+</div>
 
 <div class="section" id="my-journey">
   <h2 class='sub-title'>
@@ -443,11 +462,11 @@
       My name is Pat Stefanou and I am a senior at MIT studying computer science.
       Many fields in computer science interest me. Through my internships at NASDAQ and SendFriend,
       I have become well-versed in web development. Further, by working at CSAIL and LiveData Utilities, I
-      was exposed to machine learning and the software architecture surrounding the computational models.
-      This past summer, I also helped a
+      was exposed to machine learning and the software architecture surrounding computational models.
+      This past summer, I helped a
       co-worker of mine with a project for Ideo Colab's and Coinlist's Hackathon. We sought to build a
       automated market maker for YouTube channels, by leveraging the concept of a bonding curve
-      and the Ethereum Blockchain platform. For my contribution, I wrote "Smart Contracts" in Solidity and learned a lot about Ethereum and
+      and the Ethereum Blockchain Platform. For my contribution, I wrote "Smart Contracts" in Solidity and learned a lot about Ethereum and
       the limitless possibilities that "dapps" provide. <br><br>
 
       Outside of the workplace and classroom, I serve as a captain on MIT's Premier Varsity Water Polo team. As one of, if not, the strongest
@@ -524,13 +543,34 @@
 </div>
 
 <footer id='footer'>
-  <div class='address footer-col'>
-    <span>526 Beacon St.</span><br>
-    <span>Boston, MA, 02215</span>
+  <div class='quick-links footer-col'>
+    <div id='ql-title'>Quick Links</div><br>
+    <a href="#about" class='quick-link-link'>
+      About
+    </a>
+    <a href="#skills" class='quick-link-link'>
+      Skills
+    </a>
+    <a href="#portfolio" class='quick-link-link'>
+      Portfolio
+    </a>
+    <a href="#interests" class='quick-link-link'>
+      Interests
+    </a>
+    <a href="#my-journey" class='quick-link-link'>
+      My Journey
+    </a>
+    <a id='resume-option' href="./resume.html" target="_blank" class='quick-link-link'>
+      <div>View Resume</div>
+    </a>
   </div>
   <div class='footer-col'>
     <div class='footer-name'>
       <span>Patroklos N. Stefanou</span>
+    </div>
+    <div class='address'>
+      <div>526 Beacon St.</div>
+      <div>stefanou@mit.edu</div>
     </div>
     <div class='footer-links'>
       <a
@@ -538,7 +578,6 @@
         class="fa fa-linkedin"
         target="_blank">
       </a>
-      |
       <a
         href="https://github.com/pstefanou12"
         class="fa fa-github"
@@ -546,9 +585,11 @@
       </a>
     </div>
   </div>
-  <div class='contact footer-col'>
-    <span>stefanou@mit.edu</span><br>
-    <span>203-912-2909</span>
+  <div class='footer-col mit-info'>
+    <div id='mit'>Massachusetts Institute of Technology</div>
+    <div class='mit-info'>Computer Science and Engineering</div>
+    <div class='mit-info'>Men's Water Polo Captain</div>
+    <div class='mit-info'>Theta Tau Technology Chair</div>
   </div>
 </footer>
 

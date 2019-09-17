@@ -4,10 +4,10 @@
 #footer {
   font-family: "Rajdhani", sans-serif;
   height: 200px;
-  background-color: #b000ff;
+  background-color: #3366ff;
   text-align: center;
   font-size: 22px;
-  border-top: 3px solid #E745E8;
+  border-top: 10px solid #003366;
   color: black !important;
 }
 #footer a {

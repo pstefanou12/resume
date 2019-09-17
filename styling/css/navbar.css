@@ -6,13 +6,13 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  background-color: #b000ff;
+  background-color: #3366ff;
   transition: height 0.2s;
   transition-property: height;
   transition-duration: 0.2s;
   transition-timing-function: ease;
   transition-delay: 0s;
-  border-bottom: 3px solid #E745E8;
+  border-bottom: 5px solid #003366;
   border-radius: 0px;
 }
 
@@ -112,8 +112,8 @@
 }
 
 #mobile-navbar {
-  background-color: #b000ff;
-  border-bottom: 3px solid #E745E8;
+  background-color: #3366ff;
+  border-bottom: 5px solid #003366;
   height: 70px;
 }
 
@@ -146,7 +146,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #b000ff;
+  background-color: #3366ff;
 }
 
 #dropdown-content #resume-option:focus {

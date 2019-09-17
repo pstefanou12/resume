@@ -10,6 +10,7 @@
 }
 
 .info-wrapper {
+  text-align: right;
   padding: 5px 0px;
 }
 .info-wrapper span {
@@ -18,22 +19,17 @@
 }
 
 .info-container {
-  border: 3px solid #E745E8;
-  background-color: #b000ff;
-  color: white !important;
   filter: drop-shadow(0px 15px 10px #474747);
   font-weight: 900;
 }
 .info-container p {
   margin: 20px 20px 0px 20px;
-  text-align: right;
+  text-align: left;
 }
 
 #information {
   margin: 0px 5%;
   overflow: hidden;
-  background-color: #8282e6;
-  border: 3px solid #E745E8;
   font-family: "Roboto", sans-serif;
 }
 
@@ -67,7 +63,9 @@
 .carousel-container {
   width: 30%;
   margin: 0px 5%;
-  border: 3px solid #E745E8;
+  border: 6px solid #2a6ebc;
+  padding: 6px;
+  background-color: #cacaca;
   filter: drop-shadow(0px 15px 10px #474747);
 }
 .carousel-container img {
@@ -130,7 +128,7 @@
     width: 60%;
   }
   #info-info p {
-    text-align: left;
+    text-align: right;
   }
   #info-info #resume-button {
     float: none;

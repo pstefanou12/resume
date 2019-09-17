@@ -2,7 +2,7 @@
  * main, overall styling
 */
 body {
-  background-color: #daa5ff;
+  background-color: #96B8DE;
   color: black;
   line-height: 1.75;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .sub-title {
-  color: #7e00f1;
+  color: black;
   font-family: "Rajdhani", sans-serif;
   font-size: 48px;
   font-weight: 700;

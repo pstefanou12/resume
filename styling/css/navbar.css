@@ -118,7 +118,8 @@
 }
 
 #hamburger-container:hover {
-  background-color: #7c00ff;
+  background-color: #84ccea;
+  transition-duration: 0.2s;
   cursor: pointer;
 }
 

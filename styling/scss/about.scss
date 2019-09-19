@@ -104,6 +104,13 @@ $about-border: 6px solid #2a6ebc;
 }
 
 
+@media screen and (max-width: 1400px) {
+  .about-content {
+    display: block; 
+  }
+
+}
+
 @media screen and (max-width: 1000px) {
     .carousel-caption {
       h3 {

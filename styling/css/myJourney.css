@@ -7,9 +7,15 @@
   font-family: "Roboto", sans-serif;
 }
 #journey-content p a {
-  color: #9d2235;
+  color: white;
 }
 #journey-content p a:hover {
+  text-decoration: none;
+}
+#journey-content p a:focus {
+  text-decoration: none;
+}
+#journey-content p a:active {
   text-decoration: none;
 }
 

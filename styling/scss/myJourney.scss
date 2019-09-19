@@ -5,7 +5,7 @@
 $journey-font-size: 18px;
 $signature-font: 'Herr Von Muellerhoff', cursive;
 $secondary-font: 'Roboto', sans-serif;
-$link-color: #9d2235;
+$link-color: white;
 $padding-border-color: #cacaca;
 $photo-border: 6px solid #2a6ebc;
 
@@ -20,6 +20,14 @@ $photo-border: 6px solid #2a6ebc;
     }
 
     a:hover {
+      text-decoration: none;
+    }
+
+    a:focus {
+      text-decoration: none;
+    }
+
+    a:active {
       text-decoration: none;
     }
   }

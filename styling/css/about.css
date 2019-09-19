@@ -94,6 +94,11 @@
   background-color: black;
 }
 
+@media screen and (max-width: 1400px) {
+  .about-content {
+    display: block;
+  }
+}
 @media screen and (max-width: 1000px) {
   .carousel-caption h3 {
     font-size: 14px;

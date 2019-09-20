@@ -52,7 +52,7 @@ $(document).ready(function() {
 
       icons.addClass('remove-icon');
       links.addClass('navbar-link');
-      navbarLogo.removeClass('invisible-button'); 
+      navbarLogo.removeClass('invisible-button');
 
     } else {
       navbar.removeClass('secondary-navbar');
@@ -128,7 +128,7 @@ $(document).ready(function() {
 
   // switch navbar when necessary
   function switchNavbar() {
-    if (window.innerWidth > 1000) {
+    if (window.innerWidth > 1150) {
       $('.primary-navbar').removeClass('invisible-links');
       $('#mobile-navbar').addClass('invisible-links');
     } else {

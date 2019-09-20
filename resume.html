@@ -18,6 +18,7 @@
 
   <!-- styling -->
   <link rel="stylesheet" href="./styling/css/resume.css">
+  <link rel="stylesheet" href="./styling/css/footer.css">
 
 </head>
 <body>
@@ -31,8 +32,59 @@
       </a>
     </button>
   </header>
-    <div id="pdf" style="height:calc(100vh - 75px); margin-top:0px;">
-      <script>PDFObject.embed("./StefanouResume.pdf", "#pdf");</script>
+  <div id="pdf" style="height:calc(100vh - 75px); margin-top:0px;">
+    <script>PDFObject.embed("./StefanouResume.pdf", "#pdf");</script>
   </div>
+
+  <footer id='footer'>
+    <div class='quick-links footer-col'>
+      <div id='ql-title'>Quick Links</div><br>
+      <a href="#about" class='quick-link-link'>
+        About
+      </a>
+      <a href="#skills" class='quick-link-link'>
+        Skills
+      </a>
+      <a href="#portfolio" class='quick-link-link'>
+        Portfolio
+      </a>
+      <a href="#interests" class='quick-link-link'>
+        Interests
+      </a>
+      <a href="#my-journey" class='quick-link-link'>
+        My Journey
+      </a>
+      <a id='resume-option' href="./resume.html" target="_blank" class='quick-link-link'>
+        <div>View Resume</div>
+      </a>
+    </div>
+    <div class='footer-col'>
+      <div class='footer-name'>
+        <span>Patroklos N. Stefanou</span>
+      </div>
+      <div class='address'>
+        <div>526 Beacon St.</div>
+        <div>stefanou@mit.edu</div>
+      </div>
+      <div class='footer-links'>
+        <a
+          href="https://www.linkedin.com/in/patroklos-stefanou-b46b19126/"
+          class="fa fa-linkedin"
+          target="_blank">
+        </a>
+        <a
+          href="https://github.com/pstefanou12"
+          class="fa fa-github"
+          target="_blank">
+        </a>
+      </div>
+    </div>
+    <div class='footer-col mit-info'>
+      <div id='mit'>Massachusetts Institute of Technology</div>
+      <div class='mit-info'>Computer Science and Engineering</div>
+      <div class='mit-info'>Men's Water Polo Captain</div>
+      <div class='mit-info'>Theta Tau Technology Chair</div>
+    </div>
+  </footer>
 </body>
 </html>

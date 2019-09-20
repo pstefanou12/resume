@@ -83,3 +83,10 @@ $button-color: #d7f3ff;
 #resume-button:hover {
   transform: scale(1.1, 1.1);
 }
+
+@media screen and (max-width: 1100px) {
+  #resume-button {
+    margin-left: 42.5%;
+    float: none; 
+  }
+}

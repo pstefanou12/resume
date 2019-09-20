@@ -104,11 +104,34 @@ $about-border: 6px solid #2a6ebc;
 }
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1100px) {
   .about-content {
-    display: block; 
+    display: inline-grid !important;
   }
 
+  #info-info {
+    width: 70%;
+    margin: auto;
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .carousel-container {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2%; 
+  }
+
+  #basic-info {
+    margin: auto;
+    width: 70%;
+
+    .info-wrapper {
+      text-align: center;
+    }
+  }
 }
 
 @media screen and (max-width: 1000px) {

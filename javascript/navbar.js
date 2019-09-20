@@ -125,13 +125,16 @@ $(document).ready(function() {
   // whenever the window resizes, check navbar display
   window.onresize = switchNavbar;
   window.onload = switchNavbar;
+  window.onscroll = switchNavbar; 
 
   // switch navbar when necessary
   function switchNavbar() {
     if (window.innerWidth > 1150) {
+      console.log("CONDITION TRUE, WIDTH: ", window.innerWidth);
       $('.primary-navbar').removeClass('invisible-links');
       $('#mobile-navbar').addClass('invisible-links');
     } else {
+      console.log("CONDITION FALSE, WIDTH: ", window.innerWidth);
       $('#mobile-navbar').removeClass('invisible-links');
       $('.primary-navbar').addClass('invisible-links');
     }

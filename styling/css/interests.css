@@ -110,4 +110,15 @@
   background-color: #dd00ff;
 }
 
+@media screen and (max-width: 1000px) {
+  .interest-paragraph {
+    width: 80%;
+  }
+
+  .interest-title {
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+}
+
 /*# sourceMappingURL=interests.css.map */

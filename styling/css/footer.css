@@ -97,6 +97,18 @@
   .footer-name {
     font-size: 16px !important;
   }
+
+  #ql-title {
+    font-size: 25px !important;
+  }
+
+  #mit {
+    font-size: 20px !important;
+  }
+
+  .mit-info {
+    font-size: 12px !important;
+  }
 }
 @media screen and (max-width: 400px) {
   #footer {

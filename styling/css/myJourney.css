@@ -59,4 +59,10 @@
   filter: drop-shadow(0px 15px 10px #474747);
 }
 
+@media screen and (max-width: 500px) {
+  #formal-photo {
+    margin-bottom: 10%;
+  }
+}
+
 /*# sourceMappingURL=myJourney.css.map */

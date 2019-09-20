@@ -72,3 +72,9 @@ $photo-border: 6px solid #2a6ebc;
   border: $photo-border;
   filter: drop-shadow(0px 15px 10px #474747);
 }
+
+@media screen and (max-width: 500px) {
+  #formal-photo {
+    margin-bottom: 10%;
+  }
+}

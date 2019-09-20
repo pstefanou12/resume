@@ -121,12 +121,14 @@
 
 @media screen and (max-width: 900px) {
   .portfolio-section {
-    margin: 3% 0px;
+    margin: 0;
   }
   .portfolio-section .portfolio-image {
     display: flex;
     margin: auto;
     margin-bottom: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 }
 

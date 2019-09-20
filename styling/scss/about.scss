@@ -121,7 +121,7 @@ $about-border: 6px solid #2a6ebc;
   .carousel-container {
     width: 70%;
     margin: auto;
-    margin-bottom: 2%; 
+    margin-bottom: 2%;
   }
 
   #basic-info {
@@ -158,35 +158,4 @@ $about-border: 6px solid #2a6ebc;
         font-size: 16px !important;
       }
     }
-}
-
-@media screen and (max-width: 900px) {
-  .about-content {
-    display: block;
-  }
-
-  #basic-info {
-    margin: 0 0 20px 20%;
-    width: 60%;
-  }
-
-  #info-info {
-    float: none;
-    margin: auto;
-    width: 60%;
-
-    p {
-      text-align: right;
-    }
-
-    #resume-button {
-      float: none;
-    }
-  }
-
-  .carousel-container {
-    margin: auto;
-    margin-bottom: 20px;
-    width: 60%;
-  }
 }
